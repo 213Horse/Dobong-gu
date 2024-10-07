@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>소통합니다</title>
+
+    <link rel="stylesheet" href="/resource/css/common/common.css">
+    <link rel="stylesheet" href="/resource/css/common/reset.css">
+    <link rel="stylesheet" href="/resource/css/common/layout.css">
+    <link rel="stylesheet" href="/resource/css/communication/comunication.css">
+</head>
+
+<body>
+
+
+    <!-- content start here -->
+    <div class="mayor-revised-tab">
+        <div class="form-container">
+            <div class="exe-container-wrapper">
+                <div class="exe-container">
+                    <div class="exe-tabs">
+                        <div class="exe-items">
+                            <p class="items-txt">공약관리체계</p>
+                        </div>
+                        <div class="exe-items active">
+                            <p class="items-txt">공약관리지침</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="red-line">
+            <div class="screen-form">
+                <div class="form-group form-group-first">
+                    <label class="responsive-mobile" style="margin-left:30px">공개여부</label>
+                    <div class="radio-group">
+                        <div class="content-radio-group">
+                            <input type="radio" id="private" name="visibility" value="private" checked>
+                            <label class="radio-group-text" for="private">비공개</label>
+                        </div>
+
+                        <div class="content-radio-group">
+                            <input type="radio" id="public" name="visibility" value="public">
+                            <label class="radio-group-text" for="public">공개</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group form-group-second">
+                    <label for="author" class="responsive-mobile" style="margin-left:30px">
+                        작성자<span style="color:red">*</span>
+                    </label>
+
+                    <input class="input-disable-form-group" type="text" id="author" name="author" placeholder="홍길동"
+                        disabled>
+                </div>
+
+                <div class="form-group">
+                    <label for="title" class="responsive-mobile" style="margin-left:30px">제목<span
+                            style="color:red">*</span></label>
+                    <input class="text-input-large-style" type="text text-input-large" id="title" name="title"
+                        value="구청장에게 바란다  글 제목이 나타납니다.">
+
+                </div>
+
+                <div class="form-group">
+                    <label for="content" class="responsive-mobile" style="margin-left:30px">내용<span
+                            style="color:red">*</span></label>
+                    <textarea class="text-input-very-big" id="content" name="content">게시글 내용이 나타납니다</textarea>
+                </div>
+
+                <div class="form-group file-upload">
+                    <label class="responsive-mobile" for="file" style="margin-top:15px;margin-left:30px">파일첨부</label>
+                    <div class="content-up-file">
+                        <div class="input-up-file">
+                            <input type="file" id="file" name="file" class="custom-file-input" multiple>
+                            <div class="file-list"></div>
+                            <label class="file-upload-message" for="file"><span
+                                    style="justify-content: center;align-items: center;display: flex;">첨부파일은 5MB를 초과하여
+                                    업로드 할 수 없습니다.</span></label>
+                        </div>
+                        <div class="content-button-up-rm-file">
+                            <div class="button-up-rm-file">
+                                <label style=" display:flex ; align-items: center;justify-content: center;" for="file"
+                                    class="preview-button">파일첨부하기</label>
+                                <button type="button"
+                                    class="preview-button remove-selected-files-button">선택파일삭제</button>
+
+                            </div>
+                            <div class="file-info">0MB / 0MB</div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="button-group">
+                    <button type="button" class="cancel-button">취소</button>
+                    <button type="submit" class="submit-button">등록</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- content end here -->
+
+
+    <script src="/resource/js/communication/communication.js"></script>
+</body>
+
+</html>

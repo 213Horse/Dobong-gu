@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/resource/css/common/common.css">
+    <link rel="stylesheet" href="/resource/css/common/layout.css">
+    <link rel="stylesheet" href="/resource/css/common/reset.css">
+    <link rel="stylesheet" href="/resource/css/policy/policy.css">
+
+</head>
+
+<body>
+    <div>
+        <!-- Project progress -->
+        <div class="project-content-container">
+            <h1>주요사업 추진현황</h1>
+            <p class="project-description">
+                행정의 투명성을 높이고 구민의 참여협력 여건을 조성하기 위하여, 구청 주요사업(공약사업, 협약사업, 국·시비사업, 공모사업)의 추진현황을 공개하고 있습니다.
+            </p>
+            <ul class="project-bullet-points">
+                <li class="custom-li"><span>※ </span><span>개별 사업에 대한 자세한 사항은 추진부서로 문의하시기 바랍니다.</span></li>
+                <li class="custom-li"><span>※ </span><span>효율적인 사업 공개 및 관리를 위하여 주기적으로 사업내용을 등록 및 현행화합니다.</span></li>
+            </ul>
+        </div>
+        <!-- End Project progress -->
+
+        <div class="content-divider"></div>
+
+        <!-- Section search -->
+        <!-- End section search -->
+
+        <!-- Section policy table search -->
+        <div class="policy-table-search">
+            <div class="policy-table-search-container">
+                <input type="text" placeholder="‘사업명’ 혹은 ‘주관부서’를 검색하세요.">
+                <div class="btn-search">
+                    <button class="btn-search-button">
+                        <img src="/resource/image/policy/icon/policy-search-icon.png" alt="search icon">
+                    </button>
+                </div>
+                <div class="policy-detail-search">
+                    <button class="policy-detail-search-button">
+                        <span class="policy-plus-icon">
+                            <!-- <img src="/resource/image/policy/icon/policy-plus-gray-icon.png" alt="detail icon"> -->
+                        </span>
+                        <span>상세검색</span>
+                        <img class="policy-arrow-down" src="/resource/image/policy/icon/policy-arrow-down.png"
+                            alt="detail icon">
+                    </button>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="conditional-detail-search">
+            <div class="conditional-detail-search-wrapper">
+                <div class="conditional-search-title">
+                    <h3>조건 상세검색</h3>
+                </div>
+                <div class="condition-search-objectives">
+                    <div class="search-objective-left">
+                        <h4>정책목표</h4>
+                    </div>
+                    <div class="search-objective-right">
+                        <ul class="objective-items">
+                            <li class="objective-item"><button>전체</button></li>
+                            <li class="objective-item"><button>상생경제도시</button></li>
+                            <li class="objective-item"><button>행복도시</button></li>
+                            <li class="objective-item"><button>균형발전도시</button></li>
+                            <li class="objective-item"><button>교육문화도시</button></li>
+                            <li class="objective-item"><button>청렴행정도시</button></li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="condition-search-areas">
+                    <div class="search-area-left">
+                        <h4>정책분야</h4>
+                    </div>
+                    <div class="search-area-right">
+                        <ul class="area-items">
+                            <li class="area-item"><button>전체</button></li>
+                            <li class="area-item"><button>안전</button></li>
+                            <li class="area-item"><button>주민참여</button></li>
+                            <li class="area-item"><button>교육</button></li>
+                            <li class="area-item"><button>복지가족</button></li>
+                            <li class="area-item"><button>지역경제</button></li>
+
+                            <li class="area-item"><button>지역개발</button></li>
+                            <li class="area-item"><button>문화관광</button></li>
+                            <li class="area-item"><button>환경</button></li>
+                            <li class="area-item"><button>보건</button></li>
+                            <li class="area-item"><button>기타</button></li>
+                            <li class="area-item"><button>주택</button></li>
+                        </ul>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="condition-search-list">
+            <div class="condition-search-chosen">
+                <div class="condition-search-chosen-wrapper">
+                    <ul class="condition-chosen-items">
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- End section policy table search -->
+
+        <!-- Section filter bar -->
+        <div class="filter-bar filter-pd-top-40">
+            <div class="list-info">
+                <span class="total-count">총 <span class="highlight">50</span>건</span>
+                <span class="divider-info">|</span>
+                <span class="page-info">페이지 <span class="highlight">1</span>/5</span>
+            </div>
+            <div class="filter-section">
+                <div class="filter-selection">
+                    <input type="radio" id="latest" class="filter-radio" name="sort" checked>
+                    <label class="filter-radio-label" for="latest">최신순</label>
+                </div>
+                <div class="filter-selection">
+                    <input type="radio" id="business-number" class="filter-radio" name="sort">
+                    <label for="business-number">사업번호순</label>
+                </div>
+                <div class="filter-selection">
+                    <input type="radio" id="popular" class="filter-radio" name="sort">
+                    <label for="popular">인기순</label>
+                </div>
+                <div class="filter-selection">
+                    <input type="radio" id="views" class="filter-radio" name="sort">
+                    <label for="views">조회순</label>
+                </div>
+                <div class="filter-selection">
+                    <input type="radio" id="alphabetical" class="filter-radio" name="sort">
+                    <label for="alphabetical">가나다순</label>
+                </div>
+            </div>
+        </div>
+        <!-- End section filter bar -->
+
+        <!-- Section table -->
+        <div class="table-wrapper">
+            <table class="table-news">
+                <thead>
+                    <tr class="table-row">
+                        <th class="table-header table-width-5">번호</th>
+                        <th class="table-header table-width-10">사업번호</th>
+                        <th class="table-header table-width-25">사업명</th>
+                        <th class="table-header table-width-20">사업유형</th>
+                        <th class="table-header table-width-15">주관부서</th>
+                        <th class="table-header table-width-5">조회수</th>
+                        <th class="table-header table-width-10">좋아요수</th>
+                        <th class="table-header table-width-10">최근수정일</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="table-row">
+                        <td class="table-cell">143</td>
+                        <td class="table-cell nowrap-table">11-008</td>
+                        <td class="table-cell text-start nowrap-table">쌍문1동 구립경로당 신축</td>
+                        <td class="table-cell nowrap-table">
+                            <div class="project-type">
+                                <div class="project-type-left">
+                                    <div class="project-type-tab">공약</div>
+                                    <div class="project-type-tab active">현안</div>
+                                </div>
+                                <div class="project-type-right">
+                                    <div class="project-type-tab">국시</div>
+                                    <div class="project-type-tab">공모</div>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="table-cell nowrap-table">어르신장애인과</td>
+                        <td class="table-cell">1,550</td>
+                        <td class="table-cell">1,088</td>
+                        <td class="table-cell">2024.09.06</td>
+                    </tr>
+                    <tr class="table-row">
+                        <td class="table-cell">142</td>
+                        <td class="table-cell">11-008</td>
+                        <td class="table-cell text-start">사업명이 나타납니다.</td>
+                        <td class="table-cell">
+                            <div class="project-type">
+                                <div class="project-type-left">
+                                    <div class="project-type-tab active">공약</div>
+                                    <div class="project-type-tab">현안</div>
+                                </div>
+                                <div class="project-type-right">
+                                    <div class="project-type-tab">국시</div>
+                                    <div class="project-type-tab">공모</div>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="table-cell">어르신장애인과</td>
+                        <td class="table-cell">1,550</td>
+                        <td class="table-cell">1,088</td>
+                        <td class="table-cell">2024.09.06</td>
+                    </tr>
+                    <tr class="table-row">
+                        <td class="table-cell">141</td>
+                        <td class="table-cell">11-008</td>
+                        <td class="table-cell text-start">쌍문1동 구립경로당 신축</td>
+                        <td class="table-cell">
+                            <div class="project-type">
+                                <div class="project-type-left">
+                                    <div class="project-type-tab">공약</div>
+                                    <div class="project-type-tab active">현안</div>
+                                </div>
+                                <div class="project-type-right">
+                                    <div class="project-type-tab">국시</div>
+                                    <div class="project-type-tab">공모</div>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="table-cell">어르신장애인과</td>
+                        <td class="table-cell">1,550</td>
+                        <td class="table-cell">1,088</td>
+                        <td class="table-cell">2024.09.06</td>
+                    </tr>
+                    <tr class="table-row">
+                        <td class="table-cell">140</td>
+                        <td class="table-cell">11-008</td>
+                        <td class="table-cell text-start">쌍문1동 구립경로당 신축</td>
+                        <td class="table-cell">
+                            <div class="project-type">
+                                <div class="project-type-left">
+                                    <div class="project-type-tab">공약</div>
+                                    <div class="project-type-tab active">현안</div>
+                                </div>
+                                <div class="project-type-right">
+                                    <div class="project-type-tab">국시</div>
+                                    <div class="project-type-tab">공모</div>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="table-cell">어르신장애인과</td>
+                        <td class="table-cell">1,550</td>
+                        <td class="table-cell">1,088</td>
+                        <td class="table-cell">2024.09.06</td>
+                    </tr>
+                    <tr class="table-row">
+                        <td class="table-cell">139</td>
+                        <td class="table-cell">11-008</td>
+                        <td class="table-cell text-start">쌍문1동 구립경로당 신축</td>
+                        <td class="table-cell">
+                            <div class="project-type">
+                                <div class="project-type-left">
+                                    <div class="project-type-tab">공약</div>
+                                    <div class="project-type-tab active">현안</div>
+                                </div>
+                                <div class="project-type-right">
+                                    <div class="project-type-tab">국시</div>
+                                    <div class="project-type-tab">공모</div>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="table-cell">어르신장애인과</td>
+                        <td class="table-cell">1,550</td>
+                        <td class="table-cell">1,088</td>
+                        <td class="table-cell">2024.09.06</td>
+                    </tr>
+                    <tr class="table-row">
+                        <td class="table-cell">138</td>
+                        <td class="table-cell">11-008</td>
+                        <td class="table-cell text-start">쌍문1동 구립경로당 신축</td>
+                        <td class="table-cell">
+                            <div class="project-type">
+                                <div class="project-type-left">
+                                    <div class="project-type-tab active">공약</div>
+                                    <div class="project-type-tab">현안</div>
+                                </div>
+                                <div class="project-type-right">
+                                    <div class="project-type-tab">국시</div>
+                                    <div class="project-type-tab">공모</div>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="table-cell">어르신장애인과</td>
+                        <td class="table-cell">1,550</td>
+                        <td class="table-cell">1,088</td>
+                        <td class="table-cell">2024.09.06</td>
+                    </tr>
+                    <tr class="table-row">
+                        <td class="table-cell">137</td>
+                        <td class="table-cell">11-008</td>
+                        <td class="table-cell text-start">쌍문1동 구립경로당 신축</td>
+                        <td class="table-cell">
+                            <div class="project-type">
+                                <div class="project-type-left">
+                                    <div class="project-type-tab">공약</div>
+                                    <div class="project-type-tab active">현안</div>
+                                </div>
+                                <div class="project-type-right">
+                                    <div class="project-type-tab">국시</div>
+                                    <div class="project-type-tab">공모</div>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="table-cell">어르신장애인과</td>
+                        <td class="table-cell">1,550</td>
+                        <td class="table-cell">1,088</td>
+                        <td class="table-cell">2024.09.06</td>
+                    </tr>
+                    <tr class="table-row">
+                        <td class="table-cell">136</td>
+                        <td class="table-cell">11-008</td>
+                        <td class="table-cell text-start">쌍문1동 구립경로당 신축</td>
+                        <td class="table-cell">
+                            <div class="project-type">
+                                <div class="project-type-left">
+                                    <div class="project-type-tab">공약</div>
+                                    <div class="project-type-tab active">현안</div>
+                                </div>
+                                <div class="project-type-right">
+                                    <div class="project-type-tab">국시</div>
+                                    <div class="project-type-tab">공모</div>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="table-cell">어르신장애인과</td>
+                        <td class="table-cell">1,550</td>
+                        <td class="table-cell">1,088</td>
+                        <td class="table-cell">2024.09.06</td>
+                    </tr>
+                    <tr class="table-row">
+                        <td class="table-cell">135</td>
+                        <td class="table-cell">11-008</td>
+                        <td class="table-cell text-start">쌍문1동 구립경로당 신축</td>
+                        <td class="table-cell">
+                            <div class="project-type">
+                                <div class="project-type-left">
+                                    <div class="project-type-tab">공약</div>
+                                    <div class="project-type-tab">현안</div>
+                                </div>
+                                <div class="project-type-right">
+                                    <div class="project-type-tab active">국시</div>
+                                    <div class="project-type-tab">공모</div>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="table-cell">어르신장애인과</td>
+                        <td class="table-cell">1,550</td>
+                        <td class="table-cell">1,088</td>
+                        <td class="table-cell">2024.09.06</td>
+                    </tr>
+                    <tr class="table-row">
+                        <td class="table-cell">134</td>
+                        <td class="table-cell">11-008</td>
+                        <td class="table-cell text-start">쌍문1동 구립경로당 신축</td>
+                        <td class="table-cell">
+                            <div class="project-type">
+                                <div class="project-type-left">
+                                    <div class="project-type-tab">공약</div>
+                                    <div class="project-type-tab active">현안</div>
+                                </div>
+                                <div class="project-type-right">
+                                    <div class="project-type-tab">국시</div>
+                                    <div class="project-type-tab">공모</div>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="table-cell">어르신장애인과</td>
+                        <td class="table-cell">1,550</td>
+                        <td class="table-cell">1,088</td>
+                        <td class="table-cell">2024.09.06</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!-- End Section table  -->
+
+        <!-- Section reponsive table -->
+        <div class="list-wrapper">
+            <div class="row-item item-project">
+                <div class="item-number-and-project-type">
+                    <div class="item-number text-center">143</div>
+                    <div class="project-type">
+                        <div class="project-type-tab">공약</div>
+                        <div class="project-type-tab active">현안</div>
+                        <div class="project-type-tab">국시</div>
+                        <div class="project-type-tab">공모</div>
+                    </div>
+                </div>
+                <div class="item-info project-info">
+                    <div class="item-title"><span>25-153</span> <span>쌍문1동 구립경로당 신축</span> <i
+                            class="item-icon icon-subtract"></i>
+                    </div>
+                    <div class="item-stats">
+                        <span>어르신장애인과</span>
+                        <span><i class="item-icon icon-eye"></i>1,502회</span>
+                        <span><i class="item-icon icon-thumb-up"></i>1,094개</span>
+                    </div>
+                    <div class="item-date">2024-09-04</div>
+                </div>
+            </div>
+            <div class="row-item item-project">
+                <div class="item-number-and-project-type">
+                    <div class="item-number text-center">142</div>
+                    <div class="project-type">
+                        <div class="project-type-tab">공약</div>
+                        <div class="project-type-tab active">현안</div>
+                        <div class="project-type-tab">국시</div>
+                        <div class="project-type-tab">공모</div>
+                    </div>
+                </div>
+                <div class="item-info project-info">
+                    <div class="item-title"><span>65-123</span> <span>사업명이 나타납니다.</span>
+                    </div>
+                    <div class="item-stats">
+                        <span>어르신장애인과</span>
+                        <span><i class="item-icon icon-eye"></i>1,402회</span>
+                        <span><i class="item-icon icon-thumb-up"></i>1,128개</span>
+                    </div>
+                    <div class="item-date">2024-08-29</div>
+                </div>
+            </div>
+            <div class="row-item item-project">
+                <div class="item-number-and-project-type">
+                    <div class="item-number text-center">141</div>
+                    <div class="project-type">
+                        <div class="project-type-tab">공약</div>
+                        <div class="project-type-tab active">현안</div>
+                        <div class="project-type-tab">국시</div>
+                        <div class="project-type-tab">공모</div>
+                    </div>
+                </div>
+                <div class="item-info project-info">
+                    <div class="item-title"><span>75-112 </span> <span>사업명이 나타납니다.</span>
+                    </div>
+                    <div class="item-stats">
+                        <span>어르신장애인과</span>
+                        <span><i class="item-icon icon-eye"></i>502회</span>
+                        <span><i class="item-icon icon-thumb-up"></i>194개</span>
+                    </div>
+                    <div class="item-date">2024-09-04</div>
+                </div>
+            </div>
+            <div class="row-item item-project">
+                <div class="item-number-and-project-type">
+                    <div class="item-number text-center">140</div>
+                    <div class="project-type">
+                        <div class="project-type-tab">공약</div>
+                        <div class="project-type-tab active">현안</div>
+                        <div class="project-type-tab">국시</div>
+                        <div class="project-type-tab">공모</div>
+                    </div>
+                </div>
+                <div class="item-info project-info">
+                    <div class="item-title"><span>11-123</span> <span>사업명이 나타납니다.</span>
+                    </div>
+                    <div class="item-stats">
+                        <span>공원여가과</span>
+                        <span><i class="item-icon icon-eye"></i>1,402회</span>
+                        <span><i class="item-icon icon-thumb-up"></i>1,154개</span>
+                    </div>
+                    <div class="item-date">2024-09-04</div>
+                </div>
+            </div>
+            <div class="row-item item-project">
+                <div class="item-number-and-project-type">
+                    <div class="item-number text-center">139</div>
+                    <div class="project-type">
+                        <div class="project-type-tab">공약</div>
+                        <div class="project-type-tab active">현안</div>
+                        <div class="project-type-tab">국시</div>
+                        <div class="project-type-tab">공모</div>
+                    </div>
+                </div>
+                <div class="item-info project-info">
+                    <div class="item-title"><span>221-143</span> <span>사업명이 나타납니다.</span>
+                    </div>
+                    <div class="item-stats">
+                        <span>공원여가과</span>
+                        <span><i class="item-icon icon-eye"></i>922회</span>
+                        <span><i class="item-icon icon-thumb-up"></i>555개</span>
+                    </div>
+                    <div class="item-date">2024-09-04</div>
+                </div>
+            </div>
+            <div class="row-item item-project">
+                <div class="item-number-and-project-type">
+                    <div class="item-number text-center">138</div>
+                    <div class="project-type">
+                        <div class="project-type-tab">공약</div>
+                        <div class="project-type-tab active">현안</div>
+                        <div class="project-type-tab">국시</div>
+                        <div class="project-type-tab">공모</div>
+                    </div>
+                </div>
+                <div class="item-info project-info">
+                    <div class="item-title"><span>05-113</span> <span>사업명이 나타납니다.</span>
+                    </div>
+                    <div class="item-stats">
+                        <span>공원여가과</span>
+                        <span><i class="item-icon icon-eye"></i>8,502회</span>
+                        <span><i class="item-icon icon-thumb-up"></i>6,668개</span>
+                    </div>
+                    <div class="item-date">2024-09-04</div>
+                </div>
+            </div>
+            <div class="row-item item-project">
+                <div class="item-number-and-project-type">
+                    <div class="item-number text-center">137</div>
+                    <div class="project-type">
+                        <div class="project-type-tab">공약</div>
+                        <div class="project-type-tab active">현안</div>
+                        <div class="project-type-tab">국시</div>
+                        <div class="project-type-tab">공모</div>
+                    </div>
+                </div>
+                <div class="item-info project-info">
+                    <div class="item-title"><span>88-125</span> <span>사업명이 나타납니다.</span></div>
+                    <div class="item-stats">
+                        <span>공원여가과</span>
+                        <span><i class="item-icon icon-eye"></i>3,122회</span>
+                        <span><i class="item-icon icon-thumb-up"></i>4,125개</span>
+                    </div>
+                    <div class="item-date">2024-09-04</div>
+                </div>
+            </div>
+            <div class="row-item item-project">
+                <div class="item-number-and-project-type">
+                    <div class="item-number text-center">136</div>
+                    <div class="project-type">
+                        <div class="project-type-tab">공약</div>
+                        <div class="project-type-tab active">현안</div>
+                        <div class="project-type-tab">국시</div>
+                        <div class="project-type-tab">공모</div>
+                    </div>
+                </div>
+                <div class="item-info project-info">
+                    <div class="item-title"><span>12-113</span> <span>사업명이 나타납니다.</span>
+                    </div>
+                    <div class="item-stats">
+                        <span>공원여가과</span>
+                        <span><i class="item-icon icon-eye"></i>2,552회</span>
+                        <span><i class="item-icon icon-thumb-up"></i>1,094개</span>
+                    </div>
+                    <div class="item-date">2024-09-04</div>
+                </div>
+            </div>
+            <div class="row-item item-project">
+                <div class="item-number-and-project-type">
+                    <div class="item-number text-center">135</div>
+                    <div class="project-type">
+                        <div class="project-type-tab">공약</div>
+                        <div class="project-type-tab active">현안</div>
+                        <div class="project-type-tab">국시</div>
+                        <div class="project-type-tab">공모</div>
+                    </div>
+                </div>
+                <div class="item-info project-info">
+                    <div class="item-title"><span>88-113</span> <span>사업명이 나타납니다.</span>
+                    </div>
+                    <div class="item-stats">
+                        <span class="text-color-red">가족정책과</span>
+                        <span><i class="item-icon icon-eye"></i>202회</span>
+                        <span><i class="item-icon icon-thumb-up"></i>194개</span>
+                    </div>
+                    <div class="item-date">2024-05-12</div>
+                </div>
+            </div>
+            <div class="row-item item-project">
+                <div class="item-number-and-project-type">
+                    <div class="item-number text-center">134</div>
+                    <div class="project-type">
+                        <div class="project-type-tab">공약</div>
+                        <div class="project-type-tab active">현안</div>
+                        <div class="project-type-tab">국시</div>
+                        <div class="project-type-tab">공모</div>
+                    </div>
+                </div>
+                <div class="item-info project-info">
+                    <div class="item-title"><span>81-003</span> <span>사업명이 두줄일 경우 점점점 표기 ...</span>
+                    </div>
+                    <div class="item-stats">
+                        <span class="text-color-red">어르신장애인과</span>
+                        <span><i class="item-icon icon-eye"></i>1,802회</span>
+                        <span><i class="item-icon icon-thumb-up"></i>1,194개</span>
+                    </div>
+                    <div class="item-date">2024-09-04</div>
+                </div>
+            </div>
+        </div>
+        <!-- End section reponsive table -->
+
+        <!-- Section nothing - 등록된 게시물이 없습니다 -->
+        <div class="project-no-post">
+            <div class="no-post-content">등록된 게시물이 없습니다.</div>
+        </div>
+        <!-- End section nothing -->
+
+        <!-- Section pagination -->
+        <div class="pagination-section">
+            <ul class="pagination">
+                <li><img src="/resource/image/share-component/pagination/double-left-arrow.png" alt="double-left-arrow"
+                        class="arrow-button"></li>
+                <li><img src="/resource/image/share-component/pagination/left-arrow.png" alt="left-arrow"
+                        class="arrow-button"></li>
+                <li class="active">1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+                <li>6</li>
+                <li>7</li>
+                <li>8</li>
+                <li>9</li>
+                <li>10</li>
+                <li><img src="/resource/image/share-component/pagination/right-arrow.png" alt="right-arrow"
+                        class="arrow-button"></li>
+                <li><img src="/resource/image/share-component/pagination/double-right-arrow.png"
+                        alt="double-right-arrow" class="arrow-button"></li>
+            </ul>
+        </div>
+
+        <div class="pagination-section-mobile">
+            <ul class="pagination">
+                <li><img src="/resource/image/share-component/pagination/double-left-arrow.png" alt="double-left-arrow"
+                        class="arrow-button"></li>
+                <li><img src="/resource/image/share-component/pagination/left-arrow.png" alt="left-arrow"
+                        class="arrow-button"></li>
+                <li class="active">1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+                <li><img src="/resource/image/share-component/pagination/right-arrow.png" alt="right-arrow"
+                        class="arrow-button"></li>
+                <li><img src="/resource/image/share-component/pagination/double-right-arrow.png"
+                        alt="double-right-arrow" class="arrow-button"></li>
+            </ul>
+        </div>
+        <!-- End section pagination -->
+    </div>
+    <script src="/resource/lib/jquery/3.7.1/js/jquery.min.js"></script>
+    <script src="/resource/js/policy/policy.js"></script>
+</body>
+
+</html>

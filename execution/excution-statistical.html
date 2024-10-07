@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0">
+    <title>소통합니다</title>
+
+    <link rel="stylesheet" href="/resource/css/common/reset.css">
+    <link rel="stylesheet" href="/resource/css/common/layout.css">
+    <link rel="stylesheet" href="/resource/css/common/common.css">
+    <link rel="stylesheet" href="/resource/css/execution/execution.css">
+</head>
+
+<body>
+
+
+
+    <div id="statistical" class="statistical-container section-group-md ">
+        <div class="statistical-group">
+            <div class="exe-container-wrapper">
+                <div class="exe-container">
+                    <div class="exe-tabs">
+                        <div class="exe-items active">
+                            <p class="items-txt">한 눈에 보는 공약</p>
+                        </div>
+                        <div class="exe-items">
+                            <p class="items-txt">정책목표별 실천·현황</p>
+                        </div>
+                        <div class="exe-items">
+                            <p class="items-txt">공약사업관리</p>
+                        </div>
+                        <div class="exe-items">
+                            <p class="items-txt">우리동네 공약사업</p>
+                        </div>
+                        <div class="exe-items">
+                            <p class="items-txt">공약가계부</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="statistical-content">
+                <h2 class="statistical-tit-main">민선8기 공약 사업 : <strong> 5대 정책 목표, 51개 세부사업</strong></h2>
+                <div class="statistical-mn">
+                    <div class="statistical-donut-chart">
+                        <div id="piechart"></div>
+                    </div>
+                    <div class="statistical-lg">
+                        <div class="statistical-desc">
+                            <div class="st-desc-items">
+                                <p class="st-txt txt-red">6<span class="st-md">개</span></p>
+                                <span class="st-txt-lg">완료</span>
+                            </div>
+                            <div class="st-desc-items">
+                                <p class="st-txt txt-purle">19<span class="st-md">개</span></p>
+                                <span class="st-txt-lg">이행후 계속추진</span>
+                            </div>
+                            <div class="st-desc-items">
+                                <p class="st-txt txt-blue">25<span class="st-md">개</span></p>
+                                <span class="st-txt-lg">정상추진</span>
+                            </div>
+                            <div class="st-desc-items">
+                                <p class="st-txt txt-green">1<span class="st-md">개</span></p>
+                                <span class="st-txt-lg">일부추진</span>
+                            </div>
+                        </div>
+                        <p class="statistical-note">※ 일반시책변경 2건 미포함 (2023 주민배심원단 승인)</p>
+                        <div class="statistical-body">
+                            <div class="body-tit">
+                                <p class="bd-txt">공약이행도 판단 기준</p>
+                                <span class="bd-txt-md">※ 한국 매니페스토 실천본부 평가기준 준용</span>
+                            </div>
+                            <div class="body-list">
+                                <div class="bd-items">
+                                    <button class="btn btn-red">완료</button>
+                                    <p class="txt">공약이행이 완료되어 종료된 사업</p>
+                                </div>
+                                <div class="bd-items">
+                                    <button class="btn btn-purple">이행후 계속</button>
+                                    <p class="txt">이행완료 후 주기적으로 반복되거나 추가 목표를 세워 추진중인 사업</p>
+                                </div>
+                                <div class="bd-items">
+                                    <button class="btn btn-blue">정상추진</button>
+                                    <p class="txt">내용이 정상적으로 추진 중이고, 임기종료 시점까지 이행완료가 예상되는 사업</p>
+                                </div>
+                                <div class="bd-items">
+                                    <button class="btn btn-green">일부추진</button>
+                                    <p class="txt">추진하고 있으나 예상 목표를 달성하지 못하고 부진한 사업</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="statistical-content">
+                <h2 class="statistical-tit">민선8기 공약실천계획서</h2>
+                <div class="imp-plan">
+                    <p class="imp-txt">민선8기 공약실천계획서 다운로드</p>
+                    <div class="imp-items">
+                        <button class="imp-items-gr">
+                            <a href="#" class="gr-lnk">
+                                미리보기
+                            </a>
+                        </button>
+                        <button class="imp-items-rd">
+                            <a href="#" class="rd-lnk">
+                                다운로드
+                            </a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="statistical-content">
+                <h2 class="statistical-tit">민선8기 공약실천계획서</h2>
+                <div class="process-chart-ctn">
+
+
+
+
+                    <div class="process-chart-items">
+                        <div class="process-tit">
+                            <p class="pro-txt">활력 넘치는 <span class="cl-red">상생경제도시</span></p>
+                            <a href="#">
+                                <i class="icon-lnk"></i>
+                            </a>
+                        </div>
+                        <div class="process-list">
+                            <div class="pr-chart-list">
+                                <div id="donutChart1" class="donutChart"></div>
+                            </div>
+                            <div class="pr-desc">
+                                <button class="pr-btn">단위사업 10개 </button>
+                                <div class="pr-grid-container">
+                                    <div class="pr-grid-item">
+                                        <p class="num">1개</p>
+                                        <span class="txt">완료</span>
+                                    </div>
+                                    <div class="pr-grid-item">
+                                        <p class="num">3개</p>
+                                        <span class="txt">계속</span>
+                                    </div>
+                                    <div class="pr-grid-item">
+                                        <p class="num">6개</p>
+                                        <span class="txt">정상</span>
+                                    </div>
+                                    <div class="pr-grid-item">
+                                        <p class="num">0개</p>
+                                        <span class="txt">일부</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+                    <div class="process-chart-items">
+                        <div class="process-tit">
+                            <p class="pro-txt">안전하고 건강한 <span class="cl-ligtbl">행복도시</span></p>
+                            <a href="#">
+                                <i class="icon-lnk"></i>
+                            </a>
+                        </div>
+                        <div class="process-list">
+                            <div class="pr-chart-list">
+                                <div id="donutChart2" class="donutChart"></div>
+                            </div>
+                            <div class="pr-desc">
+                                <button class="pr-btn">단위사업 11개 </button>
+                                <div class="pr-grid-container">
+                                    <div class="pr-grid-item">
+                                        <p class="num">1개</p>
+                                        <span class="txt">완료</span>
+                                    </div>
+                                    <div class="pr-grid-item">
+                                        <p class="num">4개</p>
+                                        <span class="txt">계속</span>
+                                    </div>
+                                    <div class="pr-grid-item">
+                                        <p class="num">5개</p>
+                                        <span class="txt">정상</span>
+                                    </div>
+                                    <div class="pr-grid-item">
+                                        <p class="num">1개</p>
+                                        <span class="txt">일부</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="process-chart-items">
+                        <div class="process-tit">
+                            <p class="pro-txt">활력 넘치는 <span class="cl-purple">상생경제도시</span></p>
+                            <a href="#">
+                                <i class="icon-lnk"></i>
+                            </a>
+                        </div>
+                        <div class="process-list">
+                            <div class="pr-chart-list">
+                                <div id="donutChart3" class="donutChart"></div>
+                            </div>
+                            <div class="pr-desc">
+                                <button class="pr-btn">단위사업 16개 </button>
+                                <div class="pr-grid-container">
+                                    <div class="pr-grid-item">
+                                        <p class="num">0개</p>
+                                        <span class="txt">완료</span>
+                                    </div>
+                                    <div class="pr-grid-item">
+                                        <p class="num">5개</p>
+                                        <span class="txt">계속</span>
+                                    </div>
+                                    <div class="pr-grid-item">
+                                        <p class="num">11개</p>
+                                        <span class="txt">정상</span>
+                                    </div>
+                                    <div class="pr-grid-item">
+                                        <p class="num">0개</p>
+                                        <span class="txt">일부</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="process-chart-items">
+                        <div class="process-tit">
+                            <p class="pro-txt">교통이 편리한 <span class="cl-green">균형발전도시</span></p>
+                            <a href="#">
+                                <i class="icon-lnk"></i>
+                            </a>
+                        </div>
+                        <div class="process-list">
+                            <div class="pr-chart-list">
+                                <div id="donutChart4" class="donutChart"></div>
+                            </div>
+                            <div class="pr-desc">
+                                <button class="pr-btn">단위사업 16개</button>
+                                <div class="pr-grid-container">
+                                    <div class="pr-grid-item">
+                                        <p class="num">0개</p>
+                                        <span class="txt">완료</span>
+                                    </div>
+                                    <div class="pr-grid-item">
+                                        <p class="num">5개</p>
+                                        <span class="txt">계속</span>
+                                    </div>
+                                    <div class="pr-grid-item">
+                                        <p class="num">11개</p>
+                                        <span class="txt">정상</span>
+                                    </div>
+                                    <div class="pr-grid-item">
+                                        <p class="num">0개</p>
+                                        <span class="txt">일부</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+                    <div class="process-chart-items">
+                        <div class="process-tit">
+                            <p class="pro-txt">투명하고 혁신적인 <span class="cl-blue">청렴행정도시</span></p>
+                            <a href="#">
+                                <i class="icon-lnk"></i>
+                            </a>
+                        </div>
+                        <div class="process-list">
+                            <div class="pr-chart-list">
+                                <div id="donutChart5" class="donutChart"></div>
+                            </div>
+                            <div class="pr-desc">
+                                <button class="pr-btn">단위사업 5개 </button>
+                                <div class="pr-grid-container">
+                                    <div class="pr-grid-item">
+                                        <p class="num">4개</p>
+                                        <span class="txt">완료</span>
+                                    </div>
+                                    <div class="pr-grid-item">
+                                        <p class="num">1개</p>
+                                        <span class="txt">계속</span>
+                                    </div>
+                                    <div class="pr-grid-item">
+                                        <p class="num">0개</p>
+                                        <span class="txt">정상</span>
+                                    </div>
+                                    <div class="pr-grid-item">
+                                        <p class="num">0개</p>
+                                        <span class="txt">일부</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+                </div>
+
+            </div>
+
+            <div class="statistical-content">
+                <h2 class="statistical-tit">민선8기 공약실천계획서</h2>
+
+                <div class="table-barchart">
+                    <div class="table-row">
+                        <div class="cell-txt txt-flex">사업/과제별 현황</div>
+                        <div class="cell-items">
+                            <div id="bar-chart" class="table-bar-chart"></div>
+                        </div>
+                    </div>
+
+                    <div class="table-row">
+                        <div class="cell-txt txt-flex">사업구분별 현황</div>
+                        <div class="cell-items">
+                            <div class="chart-container" data-left-label="신규 사업" data-right-label="계속 사업"
+                                data-left-value="26" data-right-value="25">
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="table-row">
+                        <div class="cell-txt txt-flex">예산별 현황</div>
+                        <div class="cell-items">
+                            <div class="chart-container" data-left-label="예산 사업" data-right-label="비예산 사업"
+                                data-left-value="47" data-right-value="10">
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="table-row">
+                        <div class="cell-txt txt-flex">이행시기별 현황</div>
+                        <div class="cell-items">
+                            <div class="chart-container" data-left-label="임기내 (2022~2026) [단기·중기]"
+                                data-right-label="임기후 (2027~) [장기]" data-left-value="44" data-right-value="7">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="statistical-content">
+                <h2 class="statistical-tit">민선8기 공약실천계획서</h2>
+
+                <div class="list-tb-content">
+                    <div class="table-wrapper">
+                        <table class="table-black">
+                            <thead>
+                                <tr class="table-row-black">
+                                    <th class="table-header-red bd-right-pj">주관부서</th>
+                                    <th class="table-header-red bd-right-pj">공약사업 수</th>
+                                    <th class="table-header-red bd-right-pj">주관부서</th>
+                                    <th class="table-header-red ">공약사업 수</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="table-row-black">
+                                    <td class="table-cell-black">행정지원과</td>
+                                    <td class="table-cell-black bd-left bd-right">2</td>
+                                    <td class="table-cell-black bd-left bd-right">가족정책과</td>
+                                    <td class="table-cell-black bd-left bd-right">2</td>
+                                </tr>
+                                <tr class="table-row-black">
+                                    <td class="table-cell-black">교육지원과</td>
+                                    <td class="table-cell-black  bd-left bd-right">1</td>
+                                    <td class="table-cell-black  bd-left bd-right">아동청소년과</td>
+                                    <td class="table-cell-black  bd-left bd-right">2</td>
+                                </tr>
+                                <tr class="table-row-black">
+                                    <td class="table-cell-black">재난안전과</td>
+                                    <td class="table-cell-black  bd-left bd-right">1</td>
+                                    <td class="table-cell-black  bd-left bd-right">재건축재개발과</td>
+                                    <td class="table-cell-black  bd-left bd-right">2</td>
+                                </tr>
+                                <tr class="table-row-black ">
+                                    <td class="table-cell-black">지역경제과</td>
+                                    <td class="table-cell-black  bd-left bd-right">1</td>
+                                    <td class="table-cell-black  bd-left bd-right">재건축재개발과</td>
+                                    <td class="table-cell-black  bd-left bd-right">2</td>
+                                </tr>
+                                <tr class="table-row-black">
+                                    <td class="table-cell-black">청년미래과</td>
+                                    <td class="table-cell-black  bd-left bd-right">1</td>
+                                    <td class="table-cell-black  bd-left bd-right">재건축재개발과</td>
+                                    <td class="table-cell-black  bd-left bd-right">2</td>
+                                </tr>
+                                <tr class="table-row-black">
+                                    <td class="table-cell-black">문화체육과</td>
+                                    <td class="table-cell-black  bd-left bd-right">3</td>
+                                    <td class="table-cell-black  bd-left bd-right">주택과</td>
+                                    <td class="table-cell-black  bd-left bd-right">1</td>
+                                </tr>
+                                <tr class="table-row-black">
+                                    <td class="table-cell-black">공원여가과</td>
+                                    <td class="table-cell-black  bd-left bd-right">4</td>
+                                    <td class="table-cell-black  bd-left bd-right">도시계획과</td>
+                                    <td class="table-cell-black  bd-left bd-right">5</td>
+                                </tr>
+                                <tr class="table-row-black">
+                                    <td class="table-cell-black">도시활성화추진반</td>
+                                    <td class="table-cell-black  bd-left bd-right">8</td>
+                                    <td class="table-cell-black  bd-left bd-right">교통행정과</td>
+                                    <td class="table-cell-black  bd-left bd-right">9</td>
+                                </tr>
+                                <tr class="table-row-black">
+                                    <td class="table-cell-black">복지정책과</td>
+                                    <td class="table-cell-black  bd-left bd-right">2</td>
+                                    <td class="table-cell-black  bd-left bd-right">교통지도과</td>
+                                    <td class="table-cell-black  bd-left bd-right">3</td>
+                                </tr>
+                                <tr class="table-row-black">
+                                    <td class="table-cell-black">어르신장애인과</td>
+                                    <td class="table-cell-black  bd-left bd-right">2</td>
+                                    <td class="table-cell-black  bd-left bd-right">도로과</td>
+                                    <td class="table-cell-black  bd-left bd-right">2</td>
+                                </tr>
+
+                                <tr class="table-row-black">
+                                    <td class="table-cell-black">복지정책과</td>
+                                    <td class="table-cell-black  bd-left bd-right">1</td>
+                                    <td class="table-cell-black  bd-left bd-right">보건정책과</td>
+                                    <td class="table-cell-black  bd-left bd-right">1</td>
+                                </tr>
+                                <tr class="table-row-black">
+                                    <td class="table-cell-black">어르신장애인과</td>
+                                    <td class="table-cell-black  bd-left bd-right">1</td>
+                                    <td class="table-cell-black  bd-left bd-right fw-txt">합 계</td>
+                                    <td class="table-cell-black  bd-left bd-right fw-txt">52</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="table-tb-link pro-top-md " style="text-align: right;">
+                        <a href="#">
+                            표를 밀어보세요 →
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <script src="/resource/lib/d3/d3.v7.min.js"></script>
+    <script src="/resource/js/execution/executive.js"></script>
+
+</body>
+
+</html>

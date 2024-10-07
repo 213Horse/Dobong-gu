@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/resource/css/common/reset.css">
+    <link rel="stylesheet" href="/resource/css/common/layout.css">
+    <link rel="stylesheet" href="/resource/css/common/common.css">
+    <link rel="stylesheet" href="/resource/css/policy/policy.css">
+</head>
+
+<body>
+    <div>
+        <!-- Section filter bar -->
+        <div class="filter-bar">
+            <div class="list-info">
+                <span class="total-count">총 <span class="highlight">37</span>건</span>
+                <span class="divider">|</span>
+                <span class="page-info">페이지 <span class="highlight">1</span>/4</span>
+            </div>
+            <div class="filter-section">
+                <div class="filter-selection">
+                    <input type="radio" id="latest" class="filter-radio" name="sort" checked>
+                    <label class="filter-radio-label" for="latest">최신순</label>
+                </div>
+                <div class="filter-selection">
+                    <input type="radio" id="popular" class="filter-radio" name="sort">
+                    <label for="popular">인기순</label>
+                </div>
+                <div class="filter-selection">
+                    <input type="radio" id="views" class="filter-radio" name="sort">
+                    <label for="views">조회순</label>
+                </div>
+                <div class="filter-selection">
+                    <input type="radio" id="alphabetical" class="filter-radio" name="sort">
+                    <label for="alphabetical">가나다순</label>
+                </div>
+            </div>
+        </div>
+        <!-- End section filter bar -->
+
+        <!-- Section table -->
+        <div class="table-wrapper">
+            <table class="table-news">
+                <thead>
+                    <tr class="table-row">
+                        <th class="table-header table-width-5">번호</th>
+                        <th class="table-header table-width-35">사업명 <span
+                                class="text-color-red table-sub-header">(세부사업수)</span> </th>
+                        <th class="table-header table-width-15">주관부서</th>
+                        <th class="table-header table-width-10">조회수</th>
+                        <th class="table-header table-width-10">좋아요수</th>
+                        <th class="table-header table-width-10">최근수정일</th>
+                        <th class="table-header table-width-15">진척률</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="table-row">
+                        <td class="table-cell">37</td>
+                        <td class="table-cell text-start">구민의 안전을 최우선하는 재난안전 체계 구축<span class="text-color-red">
+                                (2)</span></td>
+                        <td class="table-cell">재난안전과</td>
+                        <td class="table-cell">1,685</td>
+                        <td class="table-cell">5,898</td>
+                        <td class="table-cell">2024.09.06</td>
+                        <td class="table-cell">
+                            <div class="table-cell-progress">
+                                <div class="progress-bar">
+                                    <div class="progress-actual progress-50"></div>
+                                </div>
+                                <div class="progress-text">50%</div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="table-row">
+                        <td class="table-cell">36</td>
+                        <td class="table-cell text-start">구민을 위한 생활밀착 서비스 강화<span class="text-color-red"> (2)</span>
+                        </td>
+                        <td class="table-cell">자치행정과 민원여권과</td>
+                        <td class="table-cell">1,685</td>
+                        <td class="table-cell">5,898</td>
+                        <td class="table-cell">2024.09.06</td>
+                        <td class="table-cell">
+                            <div class="table-cell-progress">
+                                <div class="progress-bar">
+                                    <div class="progress-actual progress-50"></div>
+                                </div>
+                                <div class="progress-text">50%</div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="table-row">
+                        <td class="table-cell">35</td>
+                        <td class="table-cell text-start">맞춤형 돌봄지원 강화<span class="text-color-red"> (4)</span></td>
+                        <td class="table-cell">교육지원과</td>
+                        <td class="table-cell">1,685</td>
+                        <td class="table-cell">5,898</td>
+                        <td class="table-cell">2024.09.06</td>
+                        <td class="table-cell">
+                            <div class="table-cell-progress">
+                                <div class="progress-bar">
+                                    <div class="progress-actual progress-50"></div>
+                                </div>
+                                <div class="progress-text">50%</div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="table-row">
+                        <td class="table-cell">34</td>
+                        <td class="table-cell text-start">법조타운 공영주차장(학교부지) 활용</td>
+                        <td class="table-cell">교육지원과</td>
+                        <td class="table-cell">1,685</td>
+                        <td class="table-cell">5,898</td>
+                        <td class="table-cell">2024.09.06</td>
+                        <td class="table-cell">
+                            <div class="table-cell-progress">
+                                <div class="progress-bar">
+                                    <div class="progress-actual progress-50"></div>
+                                </div>
+                                <div class="progress-text">50%</div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="table-row">
+                        <td class="table-cell">33</td>
+                        <td class="table-cell text-start">도봉 소방학교 이전부지 개발</td>
+                        <td class="table-cell">기획예산과</td>
+                        <td class="table-cell">1,685</td>
+                        <td class="table-cell">5,898</td>
+                        <td class="table-cell">2024.09.06</td>
+                        <td class="table-cell">
+                            <div class="table-cell-progress">
+                                <div class="progress-bar">
+                                    <div class="progress-actual progress-50"></div>
+                                </div>
+                                <div class="progress-text">50%</div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="table-row">
+                        <td class="table-cell">32</td>
+                        <td class="table-cell text-start">민선8기 구정운영평가 「2024 도봉서베이」</td>
+                        <td class="table-cell">기획예산과</td>
+                        <td class="table-cell">1,685</td>
+                        <td class="table-cell">5,898</td>
+                        <td class="table-cell">2024.09.06</td>
+                        <td class="table-cell">
+                            <div class="table-cell-progress">
+                                <div class="progress-bar">
+                                    <div class="progress-actual progress-50"></div>
+                                </div>
+                                <div class="progress-text">50%</div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="table-row">
+                        <td class="table-cell">31</td>
+                        <td class="table-cell text-start">양말 제조업 활성화 사업<span class="text-color-red"> (6)</span></td>
+                        <td class="table-cell">지역경제과</td>
+                        <td class="table-cell">1,685</td>
+                        <td class="table-cell">5,898</td>
+                        <td class="table-cell">2024.09.06</td>
+                        <td class="table-cell">
+                            <div class="table-cell-progress">
+                                <div class="progress-bar">
+                                    <div class="progress-actual progress-50"></div>
+                                </div>
+                                <div class="progress-text">50%</div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="table-row">
+                        <td class="table-cell">30</td>
+                        <td class="table-cell text-start">소상공인 지원 사업<span class="text-color-red"> (3)</span></td>
+                        <td class="table-cell">지역경제과</td>
+                        <td class="table-cell">1,685</td>
+                        <td class="table-cell">5,898</td>
+                        <td class="table-cell">2024.09.06</td>
+                        <td class="table-cell">
+                            <div class="table-cell-progress">
+                                <div class="progress-bar">
+                                    <div class="progress-actual progress-50"></div>
+                                </div>
+                                <div class="progress-text">50%</div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="table-row">
+                        <td class="table-cell">29</td>
+                        <td class="table-cell text-start">전통시장 및 상점가 활성화 사업</td>
+                        <td class="table-cell">지역경제과</td>
+                        <td class="table-cell">1,685</td>
+                        <td class="table-cell">5,898</td>
+                        <td class="table-cell">2024.09.06</td>
+                        <td class="table-cell">
+                            <div class="table-cell-progress">
+                                <div class="progress-bar">
+                                    <div class="progress-actual progress-50"></div>
+                                </div>
+                                <div class="progress-text">50%</div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="table-row">
+                        <td class="table-cell">28</td>
+                        <td class="table-cell text-start">도봉구 청년 정책 사업 추진<span class="text-color-red"> (8)</span></td>
+                        <td class="table-cell">재난안전과</td>
+                        <td class="table-cell">1,685</td>
+                        <td class="table-cell">5,898</td>
+                        <td class="table-cell">2024.09.06</td>
+                        <td class="table-cell">
+                            <div class="table-cell-progress">
+                                <div class="progress-bar">
+                                    <div class="progress-actual progress-50"></div>
+                                </div>
+                                <div class="progress-text">50%</div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!-- End Section table  -->
+
+        <!-- Section reponsive table -->
+        <div class="list-wrapper">
+            <div class="row-item">
+                <div class="item-number">37</div>
+                <div class="item-info">
+                    <div class="item-title">구민의 안전을 최우선 하는 재난안전 체계...</div>
+                    <div class="item-stats">
+                        <span>재난안전과</span>
+                        <span><i class="item-icon icon-eye"></i>1,502회</span>
+                        <span><i class="item-icon icon-thumb-up"></i>6,094개</span>
+                    </div>
+                    <div class="item-progress-container">
+                        <div class="item-progress-label">진척률</div>
+                        <div class="item-progress-bar">
+                            <div class="item-progress-actual progress-100"></div>
+                        </div>
+                        <div class="progress-number">100%</div>
+                    </div>
+                    <div>2024-09-04</div>
+                </div>
+            </div>
+
+            <div class="row-item">
+                <div class="item-number">36</div>
+                <div class="item-info">
+                    <div class="item-title">구민을 위한 생활밀착 서비스 강화 (5)</div>
+                    <div class="item-stats">
+                        <span>자치행정과 민원여권과</span>
+                        <span><i class="item-icon icon-eye"></i>529회</span>
+                        <span><i class="item-icon icon-thumb-up"></i>64개</span>
+                    </div>
+                    <div class="item-progress-container">
+                        <div class="item-progress-label">진척률</div>
+                        <div class="item-progress-bar">
+                            <div class="item-progress-actual progress-50"></div>
+                        </div>
+                        <div class="progress-number">50%</div>
+                    </div>
+                    <div>2024-08-24</div>
+                </div>
+            </div>
+
+            <div class="row-item">
+                <div class="item-number">35</div>
+                <div class="item-info">
+                    <div class="item-title">맞춤형 돌봄지원 강화 (4)</div>
+                    <div class="item-stats">
+                        <span>교육지원과</span>
+                        <span><i class="item-icon icon-eye"></i>7,852회</span>
+                        <span><i class="item-icon icon-thumb-up"></i>689개</span>
+                    </div>
+                    <div class="item-progress-container">
+                        <div class="item-progress-label">진척률</div>
+                        <div class="item-progress-bar">
+                            <div class="item-progress-actual progress-30"></div>
+                        </div>
+                        <div class="progress-number">30%</div>
+                    </div>
+                    <div>2024-07-12</div>
+                </div>
+            </div>
+
+            <div class="row-item">
+                <div class="item-number">34</div>
+                <div class="item-info">
+                    <div class="item-title">법조타운 공영주차장(학교부지) 활용</div>
+                    <div class="item-stats">
+                        <span>교육지원과</span>
+                        <span><i class="item-icon icon-eye"></i>3,256회</span>
+                        <span><i class="item-icon icon-thumb-up"></i>2564개</span>
+                    </div>
+                    <div class="item-progress-container">
+                        <div class="item-progress-label">진척률</div>
+                        <div class="item-progress-bar">
+                            <div class="item-progress-actual progress-10"></div>
+                        </div>
+                        <div class="progress-number">10%</div>
+                    </div>
+                    <div>2024-07-04</div>
+                </div>
+            </div>
+
+            <div class="row-item">
+                <div class="item-number">33</div>
+                <div class="item-info">
+                    <div class="item-title">도봉 소방학교 이전부지 개발</div>
+                    <div class="item-stats">
+                        <span>기획예산과</span>
+                        <span><i class="item-icon icon-eye"></i>529회</span>
+                        <span><i class="item-icon icon-thumb-up"></i>125개</span>
+                    </div>
+                    <div class="item-progress-container">
+                        <div class="item-progress-label">진척률</div>
+                        <div class="item-progress-bar">
+                            <div class="item-progress-actual progress-0"></div>
+                        </div>
+                        <div class="progress-number">0%</div>
+                    </div>
+                    <div>2024-06-21</div>
+                </div>
+            </div>
+
+            <div class="row-item">
+                <div class="item-number">32</div>
+                <div class="item-info">
+                    <div class="item-title">민선8기 구정운영평가「2024 도봉서베이」</div>
+                    <div class="item-stats">
+                        <span>기획예산과</span>
+                        <span><i class="item-icon icon-eye"></i>125회</span>
+                        <span><i class="item-icon icon-thumb-up"></i>56개</span>
+                    </div>
+                    <div class="item-progress-container">
+                        <div class="item-progress-label">진척률</div>
+                        <div class="item-progress-bar">
+                            <div class="item-progress-actual progress-100"></div>
+                        </div>
+                        <div class="progress-number">100%</div>
+                    </div>
+                    <div>2024-06-16</div>
+                </div>
+            </div>
+
+            <div class="row-item">
+                <div class="item-number">31</div>
+                <div class="item-info">
+                    <div class="item-title">양말 제조업 활성화 사업 (6)</div>
+                    <div class="item-stats">
+                        <span>재난안전과</span>
+                        <span><i class="item-icon icon-eye"></i>1,159회</span>
+                        <span><i class="item-icon icon-thumb-up"></i>986개</span>
+                    </div>
+                    <div class="item-progress-container">
+                        <div class="item-progress-label">진척률</div>
+                        <div class="item-progress-bar">
+                            <div class="item-progress-actual progress-50"></div>
+                        </div>
+                        <div class="progress-number">50%</div>
+                    </div>
+                    <div>2024-05-24</div>
+                </div>
+            </div>
+
+            <div class="row-item">
+                <div class="item-number">30</div>
+                <div class="item-info">
+                    <div class="item-title">소상공인 지원 사업 (3)</div>
+                    <div class="item-stats">
+                        <span>재난안전과</span>
+                        <span><i class="item-icon icon-eye"></i>999회</span>
+                        <span><i class="item-icon icon-thumb-up"></i>867개</span>
+                    </div>
+                    <div class="item-progress-container">
+                        <div class="item-progress-label">진척률</div>
+                        <div class="item-progress-bar">
+                            <div class="item-progress-actual progress-0"></div>
+                        </div>
+                        <div class="progress-number">0%</div>
+                    </div>
+                    <div>2024-05-13</div>
+                </div>
+            </div>
+
+            <div class="row-item">
+                <div class="item-number">29</div>
+                <div class="item-info">
+                    <div class="item-title">전통시장 및 상점가 활성화 사업</div>
+                    <div class="item-stats">
+                        <span>재난안전과</span>
+                        <span><i class="item-icon icon-eye"></i>645회</span>
+                        <span><i class="item-icon icon-thumb-up"></i>356개</span>
+                    </div>
+                    <div class="item-progress-container">
+                        <div class="item-progress-label">진척률</div>
+                        <div class="item-progress-bar">
+                            <div class="item-progress-actual progress-10"></div>
+                        </div>
+                        <div class="progress-number">10%</div>
+                    </div>
+                    <div>2024-04-24</div>
+                </div>
+            </div>
+
+            <div class="row-item">
+                <div class="item-number">28</div>
+                <div class="item-info">
+                    <div class="item-title">도봉구 청년 정책 사업 추진 (8)</div>
+                    <div class="item-stats">
+                        <span>재난안전과</span>
+                        <span><i class="item-icon icon-eye"></i>1,879회</span>
+                        <span><i class="item-icon icon-thumb-up"></i>1,546개</span>
+                    </div>
+                    <div class="item-progress-container">
+                        <div class="item-progress-label">진척률</div>
+                        <div class="item-progress-bar">
+                            <div class="item-progress-actual progress-0"></div>
+                        </div>
+                        <div class="progress-number">0%</div>
+                    </div>
+                    <div>2024-04-01</div>
+                </div>
+            </div>
+        </div>
+        <!-- End section reponsive table -->
+
+        <!-- Section pagination -->
+        <div class="pagination-section">
+            <ul class="pagination">
+                <li><img src="/resource/image/share-component/pagination/double-left-arrow.png" alt="double-left-arrow"
+                        class="arrow-button"></li>
+                <li><img src="/resource/image/share-component/pagination/left-arrow.png" alt="left-arrow"
+                        class="arrow-button"></li>
+                <li class="active">1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+                <li>6</li>
+                <li>7</li>
+                <li>8</li>
+                <li>9</li>
+                <li>10</li>
+                <li><img src="/resource/image/share-component/pagination/right-arrow.png" alt="right-arrow"
+                        class="arrow-button"></li>
+                <li><img src="/resource/image/share-component/pagination/double-right-arrow.png"
+                        alt="double-right-arrow" class="arrow-button"></li>
+            </ul>
+        </div>
+
+        <div class="pagination-section-mobile">
+            <ul class="pagination">
+                <li><img src="/resource/image/share-component/pagination/double-left-arrow.png" alt="double-left-arrow"
+                        class="arrow-button"></li>
+                <li><img src="/resource/image/share-component/pagination/left-arrow.png" alt="left-arrow"
+                        class="arrow-button"></li>
+                <li class="active">1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+                <li><img src="/resource/image/share-component/pagination/right-arrow.png" alt="right-arrow"
+                        class="arrow-button"></li>
+                <li><img src="/resource/image/share-component/pagination/double-right-arrow.png"
+                        alt="double-right-arrow" class="arrow-button"></li>
+            </ul>
+        </div>
+        <!-- End section pagination -->
+    </div>
+
+
+</body>
+
+</html>

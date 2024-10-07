@@ -1,0 +1,2251 @@
+/*1.communication-dobong-news*/
+/*2.communication-policy-agora*/
+/*3.communication-request-to-the-district-mayor-details*/
+/*4.communication-requests-to-the-district-mayor*/
+/*5.communication-resident-jury-system*/
+/*6.communication-wishes-to-the-mayor-writing*/
+
+
+
+/*--------------------------1.communication-dobong-news-------------------*/
+
+.post-navigation-hr{
+    margin: 0;
+}
+
+.notification-section {
+    background: url(/resource/image/communication/communication-dobong-news/banner-news.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    padding: 80px 73px;
+    width: 100%;
+    height: 400px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.text-content {
+    max-width: 49%;
+    width: 100%;
+    color: white;
+}
+
+.text-content .text-content-p {
+    color: #fff;
+    font-family: Pretendard;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: -0.5px;
+}
+
+.content-wrapper .text-content-btn:hover {
+    background-color: #fff;
+    color: #d22222;
+    border: #d22222;
+}
+
+.image-content {
+    position: relative;
+}
+
+.character {
+    height: 100px;
+    margin-left: 20px;
+}
+
+.paper-plane {
+    position: absolute;
+    top: -10px;
+    right: 0;
+    height: 50px;
+}
+
+.sns-channels {
+    padding-top: 30px;
+    padding-bottom: 100px;
+    margin: auto;
+}
+
+.sns-channels-h2 {
+    color: #111;
+    font-family: Pretendard;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: -0.5px;
+    margin-bottom: 20px;
+}
+
+.channel-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.channel-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.channel-card .channel-card-span {
+    flex-grow: 1;
+    margin-left: 10px;
+    color: #111;
+    font-family: Pretendard;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    letter-spacing: -0.2px;
+}
+
+.channel-card-arrow {
+    background-size: 100%;
+}
+
+.channel-card:hover {
+    background-color: #f9f9f9;
+}
+
+/*--------------------------1.communication-dobong-news-------------------*/
+/*--------------------------2.communication-policy-agora------------------*/
+.menu-page-head-container {
+    padding-top: 60px;
+
+}
+
+.ft-menu-page-head-item {
+    gap: 24px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+}
+
+.menu-page-head-item {
+    gap: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 410px;
+    min-height: 100px;
+    padding: 18px 28px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.menu-page-head-item.active {
+    border: 1px solid #D2222C;
+    background-color: #FFF4F5;
+}
+
+.menu-page-head-item .menu-page-head-item-img {
+    width: 64px;
+    height: 64px;
+}
+
+
+.menu-page-head-item-text {
+    color: #111;
+    font-family: Pretendard;
+    font-style: normal;
+    font-weight: 550;
+    line-height: 160%;
+    letter-spacing: -0.2px;
+}
+
+.resident {
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.text-resident .min-title-resident {
+    color: #111;
+    font-family: Pretendard;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    letter-spacing: -0.2px;
+    margin-top: 10px;
+}
+
+.text-resident .min-title-resident-gray {
+    color: #555;
+    font-family: Pretendard;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+    letter-spacing: -0.2px;
+}
+
+.agora-searchbar {
+    padding-top: 20px;
+}
+
+.button-resident {
+    display: flex;
+    align-items: center;
+}
+
+.button-resident .btn-bg-red{
+    color: white;
+}
+
+.button-resident .btn-bg-red:hover {
+    background-color: #FFF;
+    color: #D2222C;
+    border: 1px solid #D2222C;
+}
+
+
+.agora-container {
+    padding-bottom: 100px;
+}
+
+/*--------------------------2.communication-policy-agora------------------*/
+/*-------------------------3.communication-request-to-the-district-mayor-details------------------*/
+
+
+.info {
+    padding-top: 10px;
+    gap: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 32px;
+    font-size: 14px;
+    flex-wrap: wrap;
+}
+
+.info .gray-text {
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    margin-right: 2px;
+}
+
+.gray .black-text {
+    margin-left: 0px;
+}
+
+
+.gray-text {
+    color: #747478;
+    font-family: Pretendard, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: -0.2px;
+}
+
+.gray-text .response-link {
+    text-decoration: none;
+    color: #2B46B1;
+    font-family: Pretendard;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: -0.2px;
+}
+
+.attachment {
+    flex-wrap: wrap;
+    padding-top: 24px;
+    padding-left: 39px;
+    border-top: 1px solid #E1E1E1;
+    border-bottom: 1px solid #E1E1E1;
+    background-color: #F9F9F9;
+    display: flex;
+    padding-bottom: 24px;
+}
+
+.post-content {
+    margin-top: 50px;
+    padding-left: 40px;
+    height: 196px;
+    border-bottom: 1px solid #E1E1E1;
+    margin-bottom: 0px;
+    color: #111;
+    font-family: Pretendard;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+    letter-spacing: -0.2px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.actions {
+    padding-top: 40px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+ .actions .action-button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.article-navigation {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.prev-article,
+.next-article {
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 33px;
+    padding-right: 198px;
+}
+
+.prev-article {
+    gap: 20px;
+    display: flex;
+    align-items: center;
+}
+
+
+.text-article {
+    color: #111;
+    font-family: Pretendard;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: -0.2px;
+}
+
+.description-non {
+    color: #747478;
+    font-family: Pretendard;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: -0.2px;
+}
+
+.description {
+    color: #111;
+    font-family: Pretendard;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: -0.2px;
+}
+
+.next-article {
+    gap: 20px;
+}
+
+.fillter-description-non {
+    margin-left: 40px;
+}
+
+
+.ft-prev-article {
+    width: max-content;
+}
+
+.border-mid-ft-prev-article {
+    margin: 0;
+    border: 0;
+    height: 1px;
+    background: #E1E1E1;
+
+}
+
+.title-page-container .exe-container .exe-tabs {
+    margin-top: 0;
+}
+
+.ft-title-page-head {
+    margin-top: 60px;
+}
+
+/*-------------------------3.communication-request-to-the-district-mayor-details------------------*/
+
+/*-------------------------4.communication-requests-to-the-district-mayor------------------*/
+
+.icon-n-subtract {
+    width: 16px;
+    height: 16px;
+    background-image: url(/resource/image/communication/requests-to-the-district-mayor/n-subtract.png);
+}
+
+.container-table .table-wrapper .table-news .table-row .table-header {
+    font-weight: 400;
+}
+
+.color-D2222C {
+    color: #D2222C !important;
+}
+
+
+.font-600 {
+    font-weight: 600;
+}
+
+.divider-filter {
+    color: #B0B6BB;
+    padding: 0 12px;
+}
+
+.container-table {
+    margin-top: 60px;
+}
+
+.flex-svg {
+    display: flex;
+    align-items: center;
+    gap: 6px
+}
+
+
+.navbar {
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: white !important;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+/************/
+.banner {
+    margin-top: 94px;
+    position: relative;
+    background: url('/resource/image/requeststothedistrictmayor/Mask\ group.png');
+    height: 390px;
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: auto 100%;
+    overflow: hidden;
+}
+
+
+/**************/
+
+
+/*******************/
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    max-width: 1550px;
+    margin: auto;
+}
+
+.content-box {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 40px;
+    width: 100%;
+}
+
+.bx-group {
+    display: flex;
+    gap: 6px;
+}
+
+.bx-group span img {
+    width: 14px;
+    height: 14px;
+}
+
+.content-box ol {
+    line-height: 1.8;
+    font-size: 16px;
+}
+
+.content-box .important strong {
+    color: #D2222C;
+}
+
+.content-box.tab-content ol {
+    list-style: decimal;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.sub-list .list-text {
+    font-family: Pretendard;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25.6px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: left;
+    list-style: none;
+    position: relative;
+    margin-bottom: 10px;
+    color: #555555;
+}
+
+/*-------------------------4.communication-requests-to-the-district-mayor------------------*/
+
+/*-------------------------5.communication-resident-jury-syste-------------------*/
+
+
+.year-selection {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+
+.year-selection .year-selection-slc {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+
+/* for IE10 */
+.year-selection .year-selection-slc::-ms-expand {
+    display: none;
+}
+
+.year-selection .dropdown-ic {
+    position: absolute;
+    top: 17px;
+    right: 85px;
+}
+
+.year-selection .year-selection-slc {
+    font-size: 16px;
+    margin-right: 10px;
+    border-radius: 4px;
+    border: 1px solid #DDD;
+    background: #FFF;
+    padding: 7px 16px;
+    min-width: 148px;
+    line-height: 160%;
+}
+
+
+.btn-apply-year {
+    border-radius: 4px;
+    padding: 7px 16.5px;
+    background: #555;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    line-height: 160%;
+}
+
+.btn-apply-year:hover {
+    background-color: #111;
+}
+
+.info-section {
+    border-top: 2px solid #D2222C;
+}
+
+.fillter-info-section {
+    margin-top: 40px;
+}
+
+.info-section .info-section-h3 {
+    display: flex;
+    align-items: center;
+    color: #111;
+    font-family: Pretendard;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: -0.09px;
+    margin-top: 20px;
+}
+
+.info-section .info-section-h3::before {
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: #D2222C;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+
+.info-section .info-section-ul {
+    padding-top: 5px;
+    list-style: none;
+    padding-left: 0;
+}
+
+.info-section .info-section-li {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    color: #111;
+    font-family: Pretendard;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: -0.032px;
+}
+
+
+
+.info-section .info-section-li::before {
+    content: '●';
+    color: rgb(0, 0, 0);
+    font-size: 5px;
+    margin-right: 5px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+
+.cover-desc-method .desc-method {
+    display: flex;
+    overflow-x: auto;
+}
+
+.cover-desc-method .desc-method-next {
+    margin-top: 38px;
+}
+
+.cover-desc-method .desc-method::-webkit-scrollbar {
+    width: 10px;
+    height: 5px;
+}
+
+.cover-desc-method .desc-method::-webkit-scrollbar-track {
+    background: #EBEBEB;
+    border-radius: 10px;
+}
+
+.cover-desc-method .desc-method::-webkit-scrollbar-thumb {
+    background: #838383;
+    border-radius: 20px;
+}
+
+.cover-desc-method .desc-method::-webkit-scrollbar-thumb:hover {
+    background: #727272;
+}
+
+.cover-desc-method .desc-method .method-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 auto;
+}
+
+.cover-desc-method .desc-method .method-items::after {
+    content: '';
+    display: inline-block;
+    background-image: url(/resource/image/executive/icon/ico-mt-arrow-right.png);
+    width: 24px;
+    height: 24px;
+    background-size: 100%;
+    margin-left: 6px;
+}
+
+.cover-desc-method .desc-method .method-items:last-child::after {
+    content: none;
+}
+
+
+
+.cover-desc-method .desc-method .method-items .method-items-ctn .method-tit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 291px;
+    height: 42px;
+    border-radius: 8px;
+    border: 1px solid #FF8E95;
+    background: #FFF4F5;
+}
+
+.cover-desc-method .desc-method .method-items .method-items-ctn .method-tit .mt-txt {
+    color: #111;
+    font-family: Pretendard;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+}
+
+.cover-desc-method .desc-method .method-items .method-items-ctn .method-tit .mt-rounded {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #D2226C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 12px;
+    color: #D2226C;
+    font-weight: 700;
+    margin-right: 5px;
+}
+
+.cover-desc-method .method-items .method-items-ctn .method-ctn {
+    width: 291px;
+    height: 76px;
+    border-radius: 8px;
+    border: 1px solid #E1E1E1;
+    background: #FFF;
+    margin-top: 4px;
+    margin-bottom: 10px;
+}
+
+.cover-desc-method .desc-method .method-items .method-items-ctn .method-ctn .method-ctn-txt {
+    color: #111;
+    text-align: center;
+    font-family: Pretendard;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: -0.032px;
+    margin: 16px 20px;
+}
+
+.cover-desc-method .cover-desc-method-h3 {
+    display: flex;
+    align-items: center;
+    color: #111;
+    font-family: Pretendard;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: -0.09px;
+}
+
+.cover-desc-method .cover-desc-method-h3::before {
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: #D2222C;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.cover-desc-method {
+    padding-top: 60px;
+    width: 1280px;
+    width: 100%;
+    max-width: 1280px;
+}
+
+
+.fillter-background-activities {
+    padding: 20px;
+    background-color: #F9F9F9;
+    width: 100%;
+    max-width: 1280px;
+}
+
+
+
+
+.activities {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-top: 60px;
+    gap: 9px;
+}
+
+.activities-image-text-group {
+    display: flex;
+    gap: 40px;
+}
+
+.activities-image-section {
+    width: fit-content;
+}
+
+.activities-image-section .activities-image-section-img {
+    display: block;
+    max-width: 296px;
+    height: 161px;
+}
+
+.activities-text-section {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+}
+
+.activities-text-section-h3 {
+    margin-bottom: 4px;
+    color: #111;
+    font-family: Pretendard;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    letter-spacing: -0.032px;
+}
+
+.activities-text-section-p {
+    color: #111;
+    font-family: Pretendard;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: -0.032px;
+}
+
+.activities-text-section-p::before {
+    content: '•';
+    color: #111;
+    font-size: 0.5rem;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+
+.activities .activities-h3 {
+    display: flex;
+    align-items: center;
+    color: #111;
+    font-family: Pretendard;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: -0.09px;
+}
+
+.activities .activities-h3::before {
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: #D2222C;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.table-header-black {
+    border-top: 1px solid #D2222C;
+}
+
+.table-wrapper-h3 {
+    display: flex;
+    align-items: center;
+    color: #111;
+    font-family: Pretendard;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: -0.09px;
+}
+
+.table-wrapper-h3::before {
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: #D2222C;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.table-wrapper .table-black {
+    margin-top: 4px;
+}
+
+.fillter-table-resident {
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+
+
+.table-wrapper .table-cell-black {
+    color: #111;
+    font-family: Pretendard;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: -0.032px;
+}
+
+.table-wrapper .table-cell-black {
+    padding: 3px 20px;
+    white-space: nowrap;
+}
+
+/*-------------------------5.communication-resident-jury-syste-------------------*/
+/*-------------------------6.communication-wishes-to-the-mayor-writing---------------------*/
+
+/********************/
+.navbar {
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: white !important;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+/******************/
+.form-group .responsive-mobile {
+    white-space: nowrap;
+    width: 62px;
+    display: block;
+    color: #111;
+    font-family: Pretendard;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    letter-spacing: -0.2px;
+}
+
+.form-group input[type="text"],
+.text-input-very-big {
+    width: 235px;
+    height: 40px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.form-group .text-input-very-big {
+    height: 460px;
+}
+
+.form-group input[type="text text-input-large"],
+.text-input-very-big {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.form-group .content-radio-group input[type="radio"] {
+    cursor: pointer;
+    accent-color: #D2222C;
+}
+
+.radio-group {
+    gap: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.radio-group-text {
+    margin-left: 8px;
+}
+
+.content-radio-group {
+    display: flex;
+    align-items: center;
+}
+
+.file-upload {
+    display: flex;
+}
+
+.preview-button {
+    background-color: #666;
+    color: #FFF;
+    text-align: center;
+    font-family: Pretendard;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: -0.028px;
+    border: none;
+    width: 96px;
+    height: 36px;
+    cursor: pointer;
+    border-radius: 4px;
+    text-align: center;
+    display: inline-block;
+}
+
+.preview-button[for="file"] {
+    width: 96px;
+    height: 36px;
+    background-color: #E1E1E1;
+    cursor: pointer;
+    color: #111;
+    text-align: center;
+    font-family: Pretendard;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: -0.028px;
+}
+
+.preview-button[for="file"]:hover {
+    background-color: #bdbdbd;
+}
+
+.preview-button:hover {
+    background-color: #444;
+}
+
+
+/* .file-info {
+    margin-left: auto;
+    margin-top: 10px;
+} */
+
+.button-group {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+
+.submit-button:hover {
+    background-color: #FFF;
+    color: #D2222C;
+    border: 1px solid #D2222C;
+}
+
+.cancel-button:hover {
+    background-color: #999;
+}
+
+
+.screen-form {
+    overflow: hidden;
+}
+
+.content-up-file {
+    gap: 10px;
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+}
+
+.content-button-up-rm-file {
+    display: flex;
+    white-space: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.button-up-rm-file .preview-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-up-file {
+    min-height: 78px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: space-between;
+    border-radius: 4px;
+    border: 1px solid #DDD;
+    background: #FFF;
+}
+
+.custom-file-label {
+    display: none;
+}
+
+.custom-file-input {
+    display: none;
+}
+
+.input-up-file .file-upload-message {
+    height: 78px;
+    display: flex;
+    width: 100%;
+    color: #747478;
+    text-align: center;
+    font-family: Pretendard;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: -0.2px;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-up-file .file-upload-message {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+.file-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.file-checkbox:checked {
+    background-color: white;
+    border-color: #ccc;
+}
+
+.mayor-revised-tab .exe-container .exe-tabs {
+    margin-top: 0px;
+}
+
+.red-line {
+    border: none;
+    height: 2px;
+    background-color: #D22222;
+}
+
+.text-input-large-style {
+    padding-left: 16px;
+    color: #111;
+    font-family: Pretendard;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: -0.2px;
+}
+
+.text-input-very-big {
+    padding-left: 16px;
+    color: #111;
+    font-family: Pretendard;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: -0.2px;
+}
+
+.input-disable-form-group {
+    padding-left: 16px;
+}
+
+.form-group-second-span {
+    color: #D53758;
+}
+
+
+
+/*-------------------------6.communication-wishes-to-the-mayor-writing---------------------*/
+
+
+/*responsive*/
+@media (min-width: 360px) {
+    .post-title{
+        color:  #747478;
+font-family: Pretendard;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%;
+letter-spacing: -0.2px;
+    }
+    .color-111{
+        color: #111;
+font-family: Pretendard;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%;
+letter-spacing: -0.2px;
+    }
+    .post-navigation-communication{
+        margin-top: 50px;
+    }
+    .button-group {
+        margin-top: 0;
+    }
+    .screen-form{
+        display: flex;
+        gap: 30px;
+        flex-direction: column;
+    }
+    .gray-text .response-link {
+        font-size: 13px;
+    }
+/*************1**************/
+.text-resident .title-resident {
+    color: #111;
+    font-family: Pretendard;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: -0.5px;
+}
+.black-text {
+    color: #111;
+    font-family: Pretendard;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+}
+.notification-section {
+    padding: 20px 20px;
+}
+
+.text-content .text-content-p {
+    font-size: 20px;
+}
+
+.text-content {
+    max-width: 100%;
+}
+
+.content-wrapper .text-content-btn {
+    margin-top: 40px;
+    display: flex;
+    width: fit-content;
+    padding: 13px 51px;
+    gap: 10px;
+    flex-shrink: 0;
+    background-color: ffffff;
+    color: #d22222;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+    color: #111;
+    font-family: Pretendard;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    background: #FFF;
+}
+.sns-channels .channel-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+}
+
+.sns-channels-h2 {
+    font-size: 20px;
+}
+
+.channel-card .channel-card-span {
+    font-size: 14px;
+}
+  /*************2**************/
+  .distance-txt {
+    margin-top: 9px;
+}
+  .ft-menu-page-head-item {
+    flex-wrap: wrap;
+}
+.menu-page-head-item {
+    justify-content: flex-start;
+    width: 100%;
+    gap: 9px;
+    flex-direction: column;
+}
+.menu-page-head-item-text {
+    text-align: center;
+    font-size: 14px;
+}
+.table-cell-image-file {
+    max-width: 20px;
+    height: 20px;
+}
+
+.agora-container .table-cell {
+    color: #111;
+    font-family: Pretendard;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: -0.036px;
+
+}
+
+.agora-container .exe-container .exe-tabs {
+    width: -webkit-fill-available;
+}
+.resident {
+    flex-wrap: wrap;
+}
+
+.resident {
+    gap: 15px;
+    padding: 30px 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.button-resident {
+    width: -webkit-fill-available;
+}
+
+.button-resident-btn {
+    width: inherit;
+}
+  /*************3**************/
+  .actions .edit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 108px;
+    height: 36px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #EBEBEB;
+    color: #222;
+    font-family: Pretendard;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.032px;
+}
+
+.actions .delete {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 108px;
+    height: 36px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #EBEBEB;
+    color: #222;
+    font-family: Pretendard;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.032px;
+}
+
+.actions .list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    font-family: Pretendard;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.032px;
+    background-color: #444444;
+    width: 108px;
+    height: 36px;
+    flex-shrink: 0;
+    border-radius: 8px;
+}
+
+
+.ft-article-navigation {
+    margin-top: 100px;
+    border-top: 1px solid #E1E1E1;
+}
+
+
+.response-title {
+    margin-top: 40px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 98px;
+    border-top: 1px solid #D2222C;
+    background-color: #FFFCFC;
+    color: #111;
+    text-align: center;
+    font-family: Pretendard;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.12px;
+    border-bottom: 1px solid #E1E1E1;
+}
+
+.title-page-head {
+    border-top: 2px solid #D2222C;
+    color: #1A1A1A;
+    text-align: center;
+    font-family: Pretendard;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    margin: 0;
+    padding-top: 32px;
+}
+
+.contents-container {
+    padding: 60px 20px;
+}
+
+.fillter-description-non {
+    margin-left: 15px;
+}
+
+.wishes-to-the-mayor-writing-tab-container .exe-container .exe-tabs {
+    width: -webkit-fill-available;
+}
+
+.text-article {
+    font-size: 13px;
+    margin-left: 10px;
+}
+
+.description-non {
+    font-size: 14px;
+}
+
+.actions {
+    justify-content: center;
+}
+
+.next-article {
+    gap: 5px;
+}
+
+.prev-article {
+    gap: 5px;
+}
+
+.attachment-title {
+    font-size: 13px;
+}
+
+.name-file {
+    font-size: 13px;
+}
+  /*************4**************/
+  .requests-to-the-district-mayor-container .table-cell {
+    color: #111;
+    font-family: Pretendard;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: -0.036px;
+    white-space: nowrap;
+}
+
+.content-section {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 60px;
+}
+
+.content-box {
+    padding: 20px;
+}
+
+.content-box.tab-content .content-box-ol {
+    margin-left: 0;
+}
+
+.content-box .content-box-h2 {
+    color: #212121;
+    font-family: Pretendard;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: -0.5px;
+    text-align: left;
+}
+
+.content-box .content-box-li {
+    color: #111;
+    font-family: Pretendard;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+    letter-spacing: -0.2px;
+    margin-bottom: 10px;
+}
+
+.content-box .content-box-h3 {
+    margin-top: 40px;
+    color: #212121;
+    font-family: Pretendard;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: -0.5px;
+    text-align: left;
+
+}
+  /*************5**************/
+  .activities-image-text-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.activities-text-section {
+    width: -webkit-fill-available;
+}
+
+.activities .activities-image-section {
+    width: fit-content;
+}
+
+.activities-image-text-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.activities {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 60px;
+    gap: 9px;
+}
+.resident-jury-system-container .exe-container .exe-tabs {
+    width: -webkit-fill-available;
+}
+
+.info-section .info-section-h2 {
+    color: #111;
+    font-family: Pretendard;
+    font-size: 20-px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: -0.5px;
+}
+  /*************6**************/
+  .form-group {
+    padding-right: 0;
+    padding-left: 0;
+    gap: 90px;
+    display: flex;
+    margin-bottom: 11px;
+    border-bottom: 1px solid #ddd;
+}
+
+.form-group .content-radio-group input[type="radio"] {
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+}
+.file-name {
+    color: #111;
+    font-family: Pretendard;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: -0.2px;
+}
+
+.file-name {
+    color: #111;
+    font-family: Pretendard;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: -0.2px;
+}
+
+.file-size {
+    color: #111;
+    font-family: Pretendard;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: -0.2px;
+}
+
+.file-list {
+    display: none;
+    margin-top: 0;
+    max-width: 100%;
+    text-align: right;
+    flex-direction: column;
+    gap: 13px;
+    padding: 0;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+.file-checkbox {
+    appearance: none;
+    width: 14px;
+    height: 14px;
+    border: 1px solid #ccc !important;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    background-image: url('/resource/image/communication/communication-wishes-to-the-mayor-writing/non-check.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.file-checkbox:checked {
+    background-image: url('/resource/image/communication/communication-wishes-to-the-mayor-writing/checked.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-color: #ccc;
+}
+
+.cancel-button {
+    border: none;
+    height: 36px;
+    width: 100px;
+    border-radius: 8px;
+    background: #E1E1E1;
+    color: #111;
+    font-family: Pretendard;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: -0.032px;
+}
+
+.submit-button {
+    height: 36px;
+    width: 100px;
+    border-radius: 8px;
+    background-color: #D2222C;
+    color: #FFF;
+    font-family: Pretendard;
+    border: 1px solid #D2222C;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: -0.032px;
+}
+
+.contents-container {
+    padding: 60px 20px;
+}
+
+.form-container {
+    padding: 0;
+}
+
+.mayor-revised-tab .exe-container .exe-tabs {
+    width: -webkit-fill-available;
+}
+
+.mayor-revised-detail-tab .exe-container .exe-tabs {
+    width: -webkit-fill-available;
+}
+
+.button-up-rm-file {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    /* justify-content: space-between; */
+}
+}
+
+@media (min-width: 480px) {
+    /*************1**************/
+    .text-content {
+        width: 77%;
+    }
+  /*************2**************/
+  /*************3**************/
+  /*************4**************/
+  /*************5**************/
+  /*************6**************/
+}
+
+@media (min-width:540px) {
+    /*************1**************/
+  /*************2**************/
+  /*************3**************/
+  /*************4**************/
+  /*************5**************/
+  /*************6**************/
+
+    .file-list {
+        display: none;
+        margin-top: 0;
+        max-width: 100%;
+        text-align: right;
+        flex-direction: column;
+        gap: 10px;
+        padding: 11px 17px;
+        border-radius: 4px;
+        background-color: #fff;
+    }
+  
+    .file-checkbox {
+        appearance: none;
+        width: 14px;
+        height: 14px;
+        border: 1px solid #ccc !important;
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        background-image: url('/resource/image/communication/communication-wishes-to-the-mayor-writing/non-check.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+  
+    .file-checkbox:checked {
+        background-image: url('/resource/image/communication/communication-wishes-to-the-mayor-writing/checked.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        border-color: #ccc;
+    }
+  
+  
+    .file-name {
+        color: #111;
+        font-family: Pretendard;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%;
+        letter-spacing: -0.2px;
+    }
+  
+    .file-size {
+        color: #111;
+        font-family: Pretendard;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%;
+        letter-spacing: -0.2px;
+    }
+  }
+
+@media (min-width: 640px) {
+    /*************1**************/
+    .black-text {
+        font-size: 16px;
+    }
+    .text-resident .title-resident {
+        font-size: 24px;
+    }
+  /*************2**************/
+  /*************3**************/
+  .text-article {
+    font-size: 16px;
+}
+
+.description-non {
+    font-size: 16px;
+}
+
+.description {
+    font-size: 16px;
+}
+
+.actions {
+    justify-content: flex-end;
+}
+
+.next-article {
+    gap: 20px;
+}
+
+.prev-article {
+    gap: 20px;
+}
+
+.attachment-title {
+    font-size: 16px;
+}
+
+.name-file {
+    font-size: 16px;
+    margin-right: 6.5px;
+}
+  /*************4**************/
+  /*************5**************/
+  /*************6**************/
+}
+
+@media (min-width: 768px) {
+    .post-title{
+        font-size: 16px;
+    }
+    .color-111{
+        font-size: 16px;
+    }
+    .post-navigation-communication{
+        margin-top: 100px;
+    }
+    .button-group {
+        margin-top: 34px;
+    }
+    .screen-form{
+        gap: 0;
+    }
+    .gray-text .response-link {
+        font-size: 16px;
+    }
+    .menu-page-head-item-text {
+        font-size: 18px;
+        text-align: center;
+    }
+    .channel-card .channel-card-span{
+        font-size: 18px;
+    }
+    /*************1**************/
+    .text-content {
+        width: 64.8853616%
+    }
+
+    .notification-section {
+        padding: 80px 73px;
+    }
+
+    .text-content .text-content-p {
+        font-size: 32px;
+    }
+
+    .content-wrapper .text-content-btn {
+        margin-top: 40px;
+        display: flex;
+        padding: 13px 51px;
+        gap: 10px;
+        flex-shrink: 0;
+        border-radius: 6px;
+        text-decoration: none;
+        font-size: 20px;
+        font-style: normal;
+    }
+    .sns-channels .channel-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+  /*************2**************/
+  /*************3**************/
+  .actions .edit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 108px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #EBEBEB;
+    color: #222;
+    font-family: Pretendard;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.032px;
+}
+
+.actions .delete {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 108px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #EBEBEB;
+    color: #222;
+    font-family: Pretendard;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.032px;
+}
+
+.actions .list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    font-family: Pretendard;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.032px;
+    background-color: #444444;
+    width: 108px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 8px;
+}
+
+.response-title {
+    margin-top: 40px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 98px;
+    border-top: 1px solid #D2222C;
+    color: #111;
+    text-align: center;
+    font-family: Pretendard;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.12px;
+    border-bottom: 1px solid #E1E1E1;
+}
+
+.title-page-head {
+    border-top: 2px solid #D2222C;
+    color: #1A1A1A;
+    text-align: center;
+    font-family: Pretendard;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    margin: 0;
+    padding-top: 32px;
+}
+
+.fillter-description-non {
+    margin-left: 40px;
+}
+
+.wishes-to-the-mayor-writing-tab-container .exe-container .exe-tabs {
+    width: -webkit-fill-available;
+}
+  /*************4**************/
+  .requests-to-the-district-mayor-container .table-cell {
+    color: #111;
+    font-family: Pretendard;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: -0.036px;
+}
+
+.content-box.tab-content .content-box-ol {
+    margin-left: 20px;
+}
+
+.content-box {
+    padding: 40px;
+}
+
+.content-box .content-box-h3 {
+    margin-top: 30px;
+    color: #212121;
+    font-family: Pretendard;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: -0.5px;
+    text-align: left;
+
+}
+
+.content-box .content-box-li {
+    color: #111;
+    font-family: Pretendard;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+    letter-spacing: -0.2px;
+    margin-bottom: 10px;
+}
+
+.content-section {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 130px;
+}
+
+.content-box .content-box-h2 {
+    color: #212121;
+    font-family: Pretendard;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: -0.5px;
+    text-align: left;
+}
+  /*************5**************/
+  .activities-image-text-group {
+    flex-wrap: unset;
+}
+
+.activities {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-top: 60px;
+    gap: 9px;
+}
+
+.activities-image-text-group {
+    display: flex;
+    flex-direction: unset;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.info-section .info-section-h2 {
+    color: #111;
+    font-family: Pretendard;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: -0.5px;
+}
+  /*************6**************/
+  .form-group {
+    padding-right: 24px;
+    padding-left: 24px;
+    gap: 90px;
+    display: flex;
+    margin-bottom: 11px;
+    border-bottom: 1px solid #ddd;
+}
+
+.rating-item input[type="radio"] {
+    width: 20px;
+    height: 20px;
+}
+.button-up-rm-file {
+    display: flex;
+    gap: 10px;
+    justify-content: unset;
+}
+
+.cancel-button {
+    border: none;
+    height: 48px;
+    width: 100px;
+    border-radius: 8px;
+    background: #E1E1E1;
+    color: #111;
+    font-family: Pretendard;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: -0.032px;
+}
+
+.submit-button {
+    height: 48px;
+    width: 100px;
+    border-radius: 8px;
+    background-color: #D2222C;
+    color: #FFF;
+    font-family: Pretendard;
+    border: 1px solid #D2222C;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: -0.032px;
+}
+
+.form-container .screen-form .form-group-first {
+    flex-direction: unset;
+    gap: 79px;
+}
+
+.form-container .screen-form .form-group-second {
+    flex-direction: unset;
+    gap: 79px;
+}
+
+.form-container .form-group {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 11px;
+    flex-wrap: unset !important;
+}
+
+.form-container .screen-form .form-group-second {
+    align-items: center;
+}
+.contents-container .form-container {
+    padding: 0px;
+}
+
+.form-container .form-group {
+    align-items: baseline;
+    gap: 90px;
+}
+}
+
+@media (min-width: 1024px) {
+    /*************1**************/
+    .text-content {
+        width: 44.8853616%
+    }
+
+    .text-content .text-content-p {
+        font-size: 32px;
+    }
+    .sns-channels .channel-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+  /*************2**************/
+  .ft-menu-page-head-item {
+    flex-wrap: unset;
+}
+.menu-page-head-item {
+    width: 410px;
+    gap: 24px;
+    flex-direction: inherit;
+}
+
+.agora-container .table-cell {
+    color: #111;
+    font-family: Pretendard;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: -0.036px;
+}
+.resident {
+    flex-direction: unset;
+    flex-wrap: unset;
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.text-resident {
+    width: -webkit-fill-available;
+}
+
+.button-resident-btn {
+    width: 180px;
+}
+
+.button-resident {
+    justify-content: flex-end;
+}
+  /*************3**************/
+  /*************4**************/
+  /*************5**************/
+  .activities-image-text-group {
+    flex-wrap: unset;
+    margin-top: 9px;
+}
+  /*************6**************/
+}
+
+@media (min-width:1200px) {
+    /*************1**************/
+  /*************2**************/
+  /*************3**************/
+  /*************4**************/
+  /*************5**************/
+  /*************6**************/
+    .form-container .screen-form .form-group-first {
+        flex-direction: unset;
+        gap: 84px;
+    }
+  
+    .form-container .screen-form .form-group-second {
+        flex-direction: unset;
+        gap: 84px;
+    }
+  }
+
+@media (min-width: 1536px) {
+    /*************1**************/
+  /*************2**************/
+  /*************3**************/
+  .contents-container {
+    padding: 0;
+}
+  /*************4**************/
+  /*************5**************/
+  /*************6**************/
+  .contents-container {
+    padding: 0;
+    margin-top: 60px;
+}
+}

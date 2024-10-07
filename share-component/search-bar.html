@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0">
+    <title></title>
+
+    <link rel="stylesheet" href="/resource/css/common/reset.css">
+    <link rel="stylesheet" href="/resource/css/common/layout.css">
+    <link rel="stylesheet" href="/resource/css/common/common.css">
+</head>
+
+<body>
+    <div>
+        <div class="search-bar">
+            <div class="list-info">
+                <span class="total-count">총 <span class="highlight">50</span>건</span>
+                <span class="divider-info">|</span>
+                <span class="page-info">페이지 <span class="highlight">1</span>/5</span>
+            </div>
+            <div class="search-section">
+                <select class="search-section-dropdown">
+                    <option value="all">전체</option>
+                    <option value="option1">Option 1</option>
+                    <option value="option2">Option 2</option>
+                </select>
+                <div class="search-input-wrapper">
+                    <input type="text" class="search-input" placeholder="검색어를 입력하세요">
+                    <span class="search-icon">
+                        <img src="/resource/image/common/search-bar/search-icon.png" alt="Search">
+                    </span>
+                </div>     
+            </div>
+        </div>
+    </div>
+    <br>
+    <div>
+        <div class="filter-bar">
+            <div class="list-info">
+                <span class="total-count">총 <span class="highlight">37</span>건</span>
+                <span class="divider-info">|</span>
+                <span class="page-info">페이지 <span class="highlight">1</span>/4</span>
+            </div>
+            <div class="filter-section">
+                <div class="filter-selection">
+                    <input type="radio" id="latest" class="filter-radio" name="sort" checked>
+                    <label class="filter-radio-label" for="latest">최신순</label>
+                </div>
+                <div class="filter-selection">
+                    <input type="radio" id="popular" class="filter-radio" name="sort">
+                    <label for="popular">인기순</label>
+                </div>
+                <div class="filter-selection">
+                    <input type="radio" id="views" class="filter-radio" name="sort">
+                    <label for="views">조회순</label>
+                </div>
+                <div class="filter-selection">
+                    <input type="radio" id="alphabetical" class="filter-radio" name="sort">
+                    <label for="alphabetical">가나다순</label>   
+                </div>  
+            </div>
+        </div>
+    </div>
+    
+</body>
+
+</html>

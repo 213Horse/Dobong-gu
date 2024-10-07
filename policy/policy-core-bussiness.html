@@ -1,0 +1,1404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Policy Core Bussiness</title>
+    <link rel="stylesheet" href="/resource/lib/owl.carousel/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="/resource/lib/owl.carousel/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="/resource/css/common/reset.css">
+    <link rel="stylesheet" href="/resource/css/common/common.css">
+    <link rel="stylesheet" href="/resource/css/common/layout.css">
+    <link rel="stylesheet" href="/resource/css/policy/policy.css">
+
+</head>
+
+<body>
+    <div class="no-padding">
+        <!-- Section Policy slide -->
+        <div class="policy-slide">
+            <div class="policy-subject">
+                <div class="title-icon-policy-subject">
+                    <h3 class="policy-slide-title">맞춤 정보 안내
+                    </h3>
+                    <img class="refresh-icon-title" src="/resource/image/policy/refresh-icon.png" alt="">
+                </div>
+
+                <div class="btn-refresh">
+                    <button class="btn-refresh-button">
+                        <img class="icon-refresh-des" src="/resource/image/policy/icon/refresh-icon.png"
+                            alt="refresh button icon">
+                        <img class="icon-refresh-mobile" src="/resource/image/policy/refresh-mobile.png"
+                            alt="refresh button icon-mobile">
+                        <span>내가 최근 본 정책</span>
+                    </button>
+                </div>
+            </div>
+            <div class="policy-slide-container">
+                <div class="card-container">
+                    <div class="card" id="card1">
+                        <img src="/resource/image/policy/dobongsan-mountain.png" alt="Image 1" class="card-img">
+                        <div class="label-card-container">청년미래과</div>
+                        <div class="heart-icon" data-liked="false"></div>
+                        <div class="card-content">
+                            <span class="category txt-category-purple">청년미래과</span>
+                            <h3 class="card-title">도봉구가 추천하는 정책</h3>
+                            <p class="card-content-p"> 둘레길 2.0 추천</p>
+                        </div>
+                    </div>
+                    <div class="card" id="card2">
+                        <img src="img2.jpg" alt="Image 2" class="card-img">
+                        <div class="label-card-container">청년미래과</div>
+                        <div class="heart-icon" data-liked="false"></div>
+                        <div class="card-content">
+                            <span class="category txt-category-red">청년미래과</span>
+                            <h3 class="card-title">가장 HOT한 정책</h3>
+                            <p class="card-content-p">도봉구 청년 취업지원 및 자립기반 구축</p>
+                        </div>
+                    </div>
+                    <div class="card" id="card3">
+                        <img src="img3.jpg" alt="Image 3" class="card-img">
+                        <div class="label-card-container">청년미래과</div>
+                        <div class="heart-icon" data-liked="false"></div>
+                        <div class="card-content">
+                            <span class="category txt-category-green">청년미래과</span>
+                            <h3 class="card-title">구민들이 최다 요청한 정책</h3>
+                            <p class="card-content-p">재난취약주택 개선사업법창</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="policy-slide-control">
+                    <div class="policy-slide-progressbar">
+                        <div class="slide-progressbar-level"></div>
+                    </div>
+                    <div class="policy-slide-number">
+                        <span class="policy-slide-current"></span>
+                        <span>/</span>
+                        <span class="policy-slide-total"></span>
+                    </div>
+                    <div class="policy-slide-control-buttons">
+                        <button onclick="handlePolicySlidePrev()" class="policy-slide-prev"><img
+                                src="/resource/image/policy/icon/prev-icon.png" alt="prev_button"></button>
+                        <button onclick="handlePolicySlideAutoplay()" class="policy-slide-play"><img
+                                src="/resource/image/policy/icon/pause-icon.png" alt="autoplay button"></button>
+                        <button onclick="handlePolicySlideNext()" class="policy-slide-next"><img
+                                src="/resource/image/policy/icon/next-red-icon.png" alt="next_button"></button>
+                    </div>
+                </div>
+                <div class="dots-pagination"></div>
+            </div>
+        </div>
+    </div>
+    <!-- End Section Policy slide -->
+    <div>
+        <!-- Section policy interest -->
+        <div class="interest-policy">
+            <div class="interest-policy-container">
+                <div class="interest-policy-title">
+                    <div class="interest-policy-title-left">
+                        <h3>실시간 관심정책</h3>
+                        <div class="interest-policy-date">
+                            <span>2024.07.26</span>
+                        </div>
+                    </div>
+                    <div class="interest-policy-title-right">
+                        <div class="button-refresh">
+                            <button class="button-refresh-button">
+                                <img class="icon-refresh-des" src="/resource/image/policy/icon/refresh-icon.png"
+                                    alt="refresh button icon">
+                                <img class="icon-refresh-mobile" src="/resource/image/policy/refresh-mobile.png"
+                                    alt="refresh button icon-mobile">
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="interest-policy-items">
+                    <div class="interest-policy-item">
+                        <h5>구민의 안전을 최우선하는 재난안전 체계 구축...</h5>
+                    </div>
+                    <div class="interest-policy-item">
+                        <h5>동 주민센터 보안관 배치 시범운영</h5>
+                    </div>
+                    <div class="interest-policy-item">
+                        <h5>전통시장 및 상점가 활성화 사업</h5>
+                    </div>
+                    <div class="interest-policy-item">
+                        <h5>우리동네키움센터 운영지원 확대</h5>
+                    </div>
+                    <div class="interest-policy-item">
+                        <h5>서울아레나 복합문화시설 건립</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="related-policy-container">
+                <div class="related-policy-left">
+                    <div class="related-policy-left-title">
+                        <h3>이런 정책은 어떠세요?</h3>
+                        <div class="button-refresh">
+                            <button class="button-refresh-button">
+                                <img class="icon-refresh-des" src="/resource/image/policy/icon/refresh-icon.png"
+                                    alt="refresh button icon">
+                                <img class="icon-refresh-mobile" src="/resource/image/policy/refresh-mobile.png"
+                                    alt="refresh button icon-mobile">
+                            </button>
+                        </div>
+                    </div>
+                    <div class="related-policy-left-items">
+                        <div class="related-policy-left-item active">
+                            <h5>방학1동 주민센터 구축</h5>
+                            <div class="next-releated-arrow"></div>
+                        </div>
+                        <div class="related-policy-left-item">
+                            <h5>전통시장 및 상점가 활성화 사업</h5>
+                            <div class="next-releated-arrow"></div>
+                        </div>
+                        <div class="related-policy-left-item">
+                            <h5>2024년 민원서비스 주민만족도 향상</h5>
+                            <div class="next-releated-arrow"></div>
+                        </div>
+                        <div class="related-policy-left-item">
+                            <h5>구민의 안전을 최우선하는 재난안전 체계...</h5>
+                            <div class="next-releated-arrow"></div>
+                        </div>
+                        <div class="related-policy-left-item">
+                            <h5>서울아레나 복합문화시설 건립</h5>
+                            <div class="next-releated-arrow"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="related-policy-right">
+
+                    <div class="related-policy-href">
+                        <a class="related-policy-href-a" href="#">
+                            <img src="/resource/image/policy/icon/expand-window.png" alt="expanded window icon">
+                            <span>이 사업 바로보기</span>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- End section policy interest -->
+
+        <!-- Section policy table search -->
+        <div class="policy-table-search">
+            <div class="policy-table-search-container">
+                <input type="text" placeholder="‘사업명’ 혹은 ‘주관부서’를 검색하세요.">
+                <div class="btn-search">
+                    <button class="btn-search-button">
+                        <img src="/resource/image/policy/icon/policy-search-icon.png" alt="search icon">
+                    </button>
+                </div>
+                <div class="policy-detail-search">
+                    <button class="policy-detail-search-button">
+                        <span class="policy-plus-icon">
+                            <!-- <img src="/resource/image/policy/icon/policy-plus-gray-icon.png" alt="detail icon"> -->
+                        </span>
+                        <span>상세검색</span>
+                        <img class="policy-arrow-down" src="/resource/image/policy/icon/policy-arrow-down.png"
+                            alt="detail icon">
+                    </button>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="conditional-detail-search">
+            <div class="conditional-detail-search-wrapper">
+                <div class="conditional-search-title">
+                    <h3>조건 상세검색</h3>
+                </div>
+                <div class="condition-search-objectives">
+                    <div class="search-objective-left">
+                        <h4>정책목표</h4>
+                    </div>
+                    <div class="search-objective-right">
+                        <ul class="objective-items">
+                            <li class="objective-item"><button>전체</button></li>
+                            <li class="objective-item"><button>상생경제도시</button></li>
+                            <li class="objective-item"><button>행복도시</button></li>
+                            <li class="objective-item"><button>균형발전도시</button></li>
+                            <li class="objective-item"><button>교육문화도시</button></li>
+                            <li class="objective-item"><button>청렴행정도시</button></li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="condition-search-areas">
+                    <div class="search-area-left">
+                        <h4>정책분야</h4>
+                    </div>
+                    <div class="search-area-right">
+                        <ul class="area-items">
+                            <li class="area-item"><button>전체</button></li>
+                            <li class="area-item"><button>안전</button></li>
+                            <li class="area-item"><button>주민참여</button></li>
+                            <li class="area-item"><button>교육</button></li>
+                            <li class="area-item"><button>복지가족</button></li>
+                            <li class="area-item"><button>지역경제</button></li>
+
+                            <li class="area-item"><button>지역개발</button></li>
+                            <li class="area-item"><button>문화관광</button></li>
+                            <li class="area-item"><button>환경</button></li>
+                            <li class="area-item"><button>보건</button></li>
+                            <li class="area-item"><button>기타</button></li>
+                            <li class="area-item"><button>주택</button></li>
+                        </ul>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="condition-search-list">
+            <div class="condition-search-chosen">
+                <div class="condition-search-chosen-wrapper">
+                    <ul class="condition-chosen-items">
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- End section policy table search -->
+
+        <!-- Section filter bar -->
+        <div class="filter-bar filter-pd-top-40">
+            <div class="list-info">
+                <span class="total-count">총 <span class="highlight">37</span>건</span>
+                <span class="divider-info">|</span>
+                <span class="page-info">페이지 <span class="highlight">1</span>/4</span>
+            </div>
+            <div class="filter-section fillter-check-core">
+                <div class="filter-selection">
+                    <input type="radio" id="latest" class="filter-radio" name="sort" checked>
+                    <label class="filter-radio-label" for="latest">최신순</label>
+                </div>
+                <div class="filter-selection">
+                    <input type="radio" id="popular" class="filter-radio" name="sort">
+                    <label for="popular">인기순</label>
+                </div>
+                <div class="filter-selection">
+                    <input type="radio" id="views" class="filter-radio" name="sort">
+                    <label for="views">조회순</label>
+                </div>
+                <div class="filter-selection">
+                    <input type="radio" id="alphabetical" class="filter-radio" name="sort">
+                    <label for="alphabetical">가나다순</label>
+                </div>
+            </div>
+        </div>
+        <!-- End section filter bar -->
+
+        <!-- Section table -->
+        <div class="table-wrapper">
+            <table class="table-news">
+                <thead>
+                    <tr class="table-row">
+                        <th class="table-header table-width-5">번호</th>
+                        <th class="table-header table-width-35">사업명 <span
+                                class="text-color-red table-sub-header">(세부사업수)</span> </th>
+                        <th class="table-header table-width-15">주관부서</th>
+                        <th class="table-header table-width-10">조회수</th>
+                        <th class="table-header table-width-10">좋아요수</th>
+                        <th class="table-header table-width-10">최근수정일</th>
+                        <th class="table-header table-width-15">진척률</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- row1 -->
+                    <tr class="table-row" onclick="toggleDetails(this)">
+                        <td class="table-cell">36</td>
+                        <td class="table-cell text-start cursor-table">구민의 안전을 최우선하는 재난안전 체계 구축<span
+                                class="text-color-red"> (<span class="details-count">2</span>)</span></td>
+
+                        </td>
+                        <td class="table-cell cursor-table">재난안전과</td>
+                        <td class="table-cell">1,685</td>
+                        <td class="table-cell">5,898</td>
+                        <td class="table-cell">2024.09.06</td>
+                        <td class="table-cell">
+                            <div class="table-cell-progress">
+                                <div class="progress-bar">
+                                    <div class="progress-actual progress-50"></div>
+                                </div>
+                                <div class="progress-text">50%</div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="details-row">
+                        <td class="detail-row-top" colspan="7">
+                            <div class="details-content">
+                                <div class="tab-content">
+                                    <div class="tab-content">
+                                        <!-- add tag a content -->
+                                        <a href="" class="hover-link  show-popup">
+                                            <span class="number">①</span>
+                                            <span class="link-text">하반기 지방재정 집행 평가 우수</span>
+                                        </a>
+                                        <a href="" class="hover-link  show-popup">
+                                            <span class="number">②</span>
+                                            <span class="link-text">법조타운 공영주차장 추진</span>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="table-row" onclick="toggleDetails(this)">
+                        <td class="table-cell">36</td>
+                        <td class="table-cell text-start cursor-table">구민의 안전을 최우선하는 재난안전 체계 구축<span
+                                class="text-color-red"> (<span class="details-count">2</span>)</span></td>
+
+                        </td>
+                        <td class="table-cell">재난안전과</td>
+                        <td class="table-cell">1,685</td>
+                        <td class="table-cell">5,898</td>
+                        <td class="table-cell">2024.09.06</td>
+                        <td class="table-cell">
+                            <div class="table-cell-progress">
+                                <div class="progress-bar">
+                                    <div class="progress-actual progress-50"></div>
+                                </div>
+                                <div class="progress-text">50%</div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="details-row">
+                        <td class="detail-row-top" colspan="7">
+                            <div class="details-content">
+                                <div class="tab-content">
+                                    <div class="tab-content">
+                                        <!-- add tag a content -->
+                                        <a href="" class="hover-link  show-popup">
+                                            <span class="number">①</span>
+                                            <span class="link-text">하반기 지방재정 집행 평가 우수</span>
+                                        </a>
+                                        <a href="" class="hover-link  show-popup">
+                                            <span class="number">②</span>
+                                            <span class="link-text">법조타운 공영주차장 추진</span>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="table-row" onclick="toggleDetails(this)">
+                        <td class="table-cell">36</td>
+                        <td class="table-cell text-start cursor-table">구민의 안전을 최우선하는 재난안전 체계 구축<span
+                                class="text-color-red"> (<span class="details-count">2</span>)</span></td>
+
+                        </td>
+                        <td class="table-cell">재난안전과</td>
+                        <td class="table-cell">1,685</td>
+                        <td class="table-cell">5,898</td>
+                        <td class="table-cell">2024.09.06</td>
+                        <td class="table-cell">
+                            <div class="table-cell-progress">
+                                <div class="progress-bar">
+                                    <div class="progress-actual progress-50"></div>
+                                </div>
+                                <div class="progress-text">50%</div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="details-row">
+                        <td class="detail-row-top" colspan="7">
+                            <div class="details-content">
+                                <div class="tab-content">
+                                    <div class="tab-content">
+                                        <!-- add tag a content -->
+                                        <a href="" class="hover-link  show-popup">
+                                            <span class="number">①</span>
+                                            <span class="link-text">하반기 지방재정 집행 평가 우수</span>
+                                        </a>
+                                        <a href="" class="hover-link  show-popup">
+                                            <span class="number">②</span>
+                                            <span class="link-text">법조타운 공영주차장 추진</span>
+                                        </a>
+                                        <a href="" class="hover-link  show-popup">
+                                            <span class="number">③</span>
+                                            <span class="link-text">폭염 종합대책 추진</span>
+                                        </a>
+                                        <a href="" class="hover-link  show-popup">
+                                            <span class="number">③</span>
+                                            <span class="link-text">폭염 종합대책 추진</span>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="table-row" onclick="toggleDetails(this)">
+                        <td class="table-cell">36</td>
+                        <td class="table-cell text-start cursor-table">구민의 안전을 최우선하는 재난안전 체계 구축<span
+                                class="text-color-red"> (<span class="details-count">2</span>)</span></td>
+
+                        </td>
+                        <td class="table-cell">재난안전과</td>
+                        <td class="table-cell">1,685</td>
+                        <td class="table-cell">5,898</td>
+                        <td class="table-cell">2024.09.06</td>
+                        <td class="table-cell">
+                            <div class="table-cell-progress">
+                                <div class="progress-bar">
+                                    <div class="progress-actual progress-50"></div>
+                                </div>
+                                <div class="progress-text">50%</div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="details-row">
+                        <td class="detail-row-top" colspan="7">
+                            <div class="details-content">
+                                <div class="tab-content">
+                                    <div class="tab-content">
+                                        <!-- add tag a content -->
+                                    </div>
+
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="table-row" onclick="toggleDetails(this)">
+                        <td class="table-cell">36</td>
+                        <td class="table-cell text-start cursor-table">구민의 안전을 최우선하는 재난안전 체계 구축<span
+                                class="text-color-red"> (<span class="details-count">2</span>)</span></td>
+
+                        </td>
+                        <td class="table-cell">재난안전과</td>
+                        <td class="table-cell">1,685</td>
+                        <td class="table-cell">5,898</td>
+                        <td class="table-cell">2024.09.06</td>
+                        <td class="table-cell">
+                            <div class="table-cell-progress">
+                                <div class="progress-bar">
+                                    <div class="progress-actual progress-50"></div>
+                                </div>
+                                <div class="progress-text">50%</div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="details-row">
+                        <td class="detail-row-top" colspan="7">
+                            <div class="details-content">
+                                <div class="tab-content">
+                                    <div class="tab-content">
+                                        <!-- add tag a content -->
+                                    </div>
+
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="table-row" onclick="toggleDetails(this)">
+                        <td class="table-cell">36</td>
+                        <td class="table-cell text-start cursor-table">구민의 안전을 최우선하는 재난안전 체계 구축<span
+                                class="text-color-red"> (<span class="details-count">2</span>)</span></td>
+
+                        </td>
+                        <td class="table-cell">재난안전과</td>
+                        <td class="table-cell">1,685</td>
+                        <td class="table-cell">5,898</td>
+                        <td class="table-cell">2024.09.06</td>
+                        <td class="table-cell">
+                            <div class="table-cell-progress">
+                                <div class="progress-bar">
+                                    <div class="progress-actual progress-50"></div>
+                                </div>
+                                <div class="progress-text">50%</div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="details-row">
+                        <td class="detail-row-top" colspan="7">
+                            <div class="details-content">
+                                <div class="tab-content">
+                                    <div class="tab-content">
+                                        <!-- add tag a content -->
+                                    </div>
+
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="table-row" onclick="toggleDetails(this)">
+                        <td class="table-cell">36</td>
+                        <td class="table-cell text-start cursor-table">구민의 안전을 최우선하는 재난안전 체계 구축<span
+                                class="text-color-red"> (<span class="details-count">2</span>)</span></td>
+
+                        </td>
+                        <td class="table-cell">재난안전과</td>
+                        <td class="table-cell">1,685</td>
+                        <td class="table-cell">5,898</td>
+                        <td class="table-cell">2024.09.06</td>
+                        <td class="table-cell">
+                            <div class="table-cell-progress">
+                                <div class="progress-bar">
+                                    <div class="progress-actual progress-50"></div>
+                                </div>
+                                <div class="progress-text">50%</div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="details-row">
+                        <td class="detail-row-top" colspan="7">
+                            <div class="details-content">
+                                <div class="tab-content">
+                                    <div class="tab-content">
+                                        <!-- add tag a content -->
+                                        <a href="" class="hover-link  show-popup">
+                                            <span class="number">①</span>
+                                            <span class="link-text">하반기 지방재정 집행 평가 우수</span>
+                                        </a>
+                                        <a href="" class="hover-link  show-popup">
+                                            <span class="number">②</span>
+                                            <span class="link-text">법조타운 공영주차장 추진</span>
+                                        </a>
+                                        <a href="" class="hover-link  show-popup">
+                                            <span class="number">③</span>
+                                            <span class="link-text">폭염 종합대책 추진</span>
+                                        </a>
+                                        <a href="" class="hover-link  show-popup">
+                                            <span class="number">①</span>
+                                            <span class="link-text">하반기 지방재정 집행 평가 우수</span>
+                                        </a>
+                                        <a href="" class="hover-link  show-popup">
+                                            <span class="number">②</span>
+                                            <span class="link-text">법조타운 공영주차장 추진</span>
+                                        </a>
+                                        <a href="" class="hover-link  show-popup">
+                                            <span class="number">③</span>
+                                            <span class="link-text">폭염 종합대책 추진</span>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="table-row" onclick="toggleDetails(this)">
+                        <td class="table-cell">36</td>
+                        <td class="table-cell text-start cursor-table">구민의 안전을 최우선하는 재난안전 체계 구축<span
+                                class="text-color-red"> (<span class="details-count">2</span>)</span></td>
+
+                        </td>
+                        <td class="table-cell">재난안전과</td>
+                        <td class="table-cell">1,685</td>
+                        <td class="table-cell">5,898</td>
+                        <td class="table-cell">2024.09.06</td>
+                        <td class="table-cell">
+                            <div class="table-cell-progress">
+                                <div class="progress-bar">
+                                    <div class="progress-actual progress-50"></div>
+                                </div>
+                                <div class="progress-text">50%</div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="details-row">
+                        <td class="detail-row-top" colspan="7">
+                            <div class="details-content">
+                                <div class="tab-content">
+                                    <div class="tab-content">
+                                        <!-- add tag a content -->
+                                        <a href="" class="hover-link  show-popup">
+                                            <span class="number">①</span>
+                                            <span class="link-text">하반기 지방재정 집행 평가 우수</span>
+                                        </a>
+                                        <a href="" class="hover-link  show-popup">
+                                            <span class="number">②</span>
+                                            <span class="link-text">법조타운 공영주차장 추진</span>
+                                        </a>
+                                        <a href="" class="hover-link  show-popup">
+                                            <span class="number">③</span>
+                                            <span class="link-text">폭염 종합대책 추진</span>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="table-row" onclick="toggleDetails(this)">
+                        <td class="table-cell">36</td>
+                        <td class="table-cell text-start cursor-table">구민의 안전을 최우선하는 재난안전 체계 구축<span
+                                class="text-color-red"> (<span class="details-count">2</span>)</span></td>
+
+                        </td>
+                        <td class="table-cell">재난안전과</td>
+                        <td class="table-cell">1,685</td>
+                        <td class="table-cell">5,898</td>
+                        <td class="table-cell">2024.09.06</td>
+                        <td class="table-cell">
+                            <div class="table-cell-progress">
+                                <div class="progress-bar">
+                                    <div class="progress-actual progress-50"></div>
+                                </div>
+                                <div class="progress-text">50%</div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="details-row">
+                        <td class="detail-row-top" colspan="7">
+                            <div class="details-content">
+                                <div class="tab-content">
+                                    <div class="tab-content">
+                                        <!-- add tag a content -->
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="table-row" onclick="toggleDetails(this)">
+                        <td class="table-cell">36</td>
+                        <td class="table-cell text-start cursor-table">구민의 안전을 최우선하는 재난안전 체계 구축<span
+                                class="text-color-red"> (<span class="details-count">2</span>)</span></td>
+
+                        </td>
+                        <td class="table-cell">재난안전과</td>
+                        <td class="table-cell">1,685</td>
+                        <td class="table-cell">5,898</td>
+                        <td class="table-cell">2024.09.06</td>
+                        <td class="table-cell">
+                            <div class="table-cell-progress">
+                                <div class="progress-bar">
+                                    <div class="progress-actual progress-50"></div>
+                                </div>
+                                <div class="progress-text">50%</div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="details-row">
+                        <td class="detail-row-top" colspan="7">
+                            <div class="details-content">
+                                <div class="tab-content">
+                                    <!-- add tag a content -->
+                                    <div class="tab-content">
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!-- End Section table  -->
+
+        <!-- Section reponsive table -->
+        <div class="list-wrapper">
+            <div class="row-item" onclick="toggleDetails1(this)">
+                <div class="flex-row-tiem-child">
+                    <div class="item-number">37</div>
+                    <div class="fillter-flex-row-item-child">
+                        <div class="item-title">구민의 안전을 최우선 하는 재난안전 체계...</div>
+                        <div class="item-stats">
+                            <span>재난안전과</span>
+                            <span><i class="item-icon icon-eye"></i>1,502회</span>
+                            <span><i class="item-icon icon-thumb-up"></i>6,094개</span>
+                        </div>
+                        <div class="item-progress-container">
+                            <div class="item-progress-label">진척률</div>
+                            <div class="item-progress-bar">
+                                <div class="item-progress-actual progress-100"></div>
+                            </div>
+                            <div class="progress-number">100%</div>
+                        </div>
+                        <div>2024-09-04</div>
+                    </div>
+                </div>
+                <!-- This is the hidden details section -->
+                <div class="item-details">
+                    <div class="border-top-linear"></div>
+                    <div class="item-details-container">
+                        <ol>
+                            <a href="" class="hover-link  show-popup">
+                                <span class="number">①</span>
+                                <span class="link-text">하반기 지방재정 집행 평가 우수ㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇ하반기 지방재정 집행 평가
+                                    우수ㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇ</span>
+                            </a>
+                            <a href="" class="hover-link  show-popup">
+                                <span class="number">②</span>
+                                <span class="link-text">법조타운 공영주차장 추진</span>
+                            </a>
+                            <a href="" class="hover-link  show-popup">
+                                <span class="number">③</span>
+                                <span class="link-text">폭염 종합대책 추진</span>
+                            </a>
+                        </ol>
+                        <div class="close-arrow-container">
+                            <img src="/resource/image/policy/icon/arrow-up-close-icon.png"
+                                alt="arrow icon close items detail">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row-item" onclick="toggleDetails1(this)">
+                <div class="flex-row-tiem-child">
+                    <div class="item-number">36</div>
+                    <div class="fillter-flex-row-item-child">
+                        <div class="item-title">구민을 위한 생활밀착 서비스 강화</div>
+                        <div class="item-stats">
+                            <span>자치행정과 민원여권과</span>
+                            <span><i class="item-icon icon-eye"></i>529회</span>
+                            <span><i class="item-icon icon-thumb-up"></i>64개</span>
+                        </div>
+                        <div class="item-progress-container">
+                            <div class="item-progress-label">진척률</div>
+                            <div class="item-progress-bar">
+                                <div class="item-progress-actual progress-50"></div>
+                            </div>
+                            <div class="progress-number">50%</div>
+                        </div>
+                        <div>2024-08-24</div>
+                    </div>
+                </div>
+                <!-- This is the hidden details section -->
+                <div class="item-details">
+                    <ol>
+
+                    </ol>
+                </div>
+            </div>
+            <div class="row-item" onclick="toggleDetails1(this)">
+                <div class="flex-row-tiem-child">
+                    <div class="item-number">35</div>
+                    <div class="fillter-flex-row-item-child">
+                        <div class="item-title">맞춤형 돌봄지원 강화</div>
+                        <div class="item-stats">
+                            <span>교육지원과</span>
+                            <span><i class="item-icon icon-eye"></i>7,852회</span>
+                            <span><i class="item-icon icon-thumb-up"></i>689개</span>
+                        </div>
+                        <div class="item-progress-container">
+                            <div class="item-progress-label">진척률</div>
+                            <div class="item-progress-bar">
+                                <div class="item-progress-actual progress-30"></div>
+                            </div>
+                            <div class="progress-number">30%</div>
+                        </div>
+                        <div>2024-07-12</div>
+                    </div>
+                </div>
+                <!-- This is the hidden details section -->
+                <div class="item-details">
+                    <div class="border-top-linear"></div>
+                    <div class="item-details-container">
+                        <ol>
+                            <a href="" class="hover-link  show-popup">
+                                <span class="number">①</span>
+                                <span class="link-text">하반기 지방재정 집행 평가 우수ㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇ하반기 지방재정 집행 평가
+                                    우수ㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇ</span>
+                            </a>
+                            <a href="" class="hover-link  show-popup">
+                                <span class="number">②</span>
+                                <span class="link-text">법조타운 공영주차장 추진</span>
+                            </a>
+                            <a href="" class="hover-link  show-popup">
+                                <span class="number">③</span>
+                                <span class="link-text">폭염 종합대책 추진</span>
+                            </a>
+                            <a href="" class="hover-link  show-popup">
+                                <span class="number">③</span>
+                                <span class="link-text">폭염 종합대책 추진</span>
+                            </a>
+                        </ol>
+                        <div class="close-arrow-container">
+                            <img src="/resource/image/policy/icon/arrow-up-close-icon.png"
+                                alt="arrow icon close items detail">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row-item" onclick="toggleDetails1(this)">
+                <div class="flex-row-tiem-child">
+                    <div class="item-number">34</div>
+                    <div class="fillter-flex-row-item-child">
+                        <div class="item-title">법조타운 공영주차장(학교부지) 활용</div>
+                        <div class="item-stats">
+                            <span>교육지원과</span>
+                            <span><i class="item-icon icon-eye"></i>3,256회</span>
+                            <span><i class="item-icon icon-thumb-up"></i>2564개</span>
+                        </div>
+                        <div class="item-progress-container">
+                            <div class="item-progress-label">진척률</div>
+                            <div class="item-progress-bar">
+                                <div class="item-progress-actual progress-5"></div>
+                            </div>
+                            <div class="progress-number">5%</div>
+                        </div>
+                        <div>2024-07-04</div>
+                    </div>
+                </div>
+                <!-- This is the hidden details section -->
+                <div class="item-details">
+                    <ol>
+
+                    </ol>
+                </div>
+            </div>
+            <div class="row-item" onclick="toggleDetails1(this)">
+                <div class="flex-row-tiem-child">
+                    <div class="item-number">33</div>
+                    <div class="fillter-flex-row-item-child">
+                        <div class="item-title">도봉 소방학교 이전부지 개발</div>
+                        <div class="item-stats">
+                            <span>기획예산과</span>
+                            <span><i class="item-icon icon-eye"></i>529회</span>
+                            <span><i class="item-icon icon-thumb-up"></i>125개</span>
+                        </div>
+                        <div class="item-progress-container">
+                            <div class="item-progress-label">진척률</div>
+                            <div class="item-progress-bar">
+                                <div class="item-progress-actual progress-0"></div>
+                            </div>
+                            <div class="progress-number">0%</div>
+                        </div>
+                        <div>2024-06-21</div>
+                    </div>
+                </div>
+                <!-- This is the hidden details section -->
+                <div class="item-details">
+                    <ol>
+
+                    </ol>
+                </div>
+            </div>
+            <div class="row-item" onclick="toggleDetails1(this)">
+                <div class="flex-row-tiem-child">
+                    <div class="item-number">32</div>
+                    <div class="fillter-flex-row-item-child">
+                        <div class="item-title">민선8기 구정운영평가「2024 도봉서베이」</div>
+                        <div class="item-stats">
+                            <span>기획예산과</span>
+                            <span><i class="item-icon icon-eye"></i>125회</span>
+                            <span><i class="item-icon icon-thumb-up"></i>56개</span>
+                        </div>
+                        <div class="item-progress-container">
+                            <div class="item-progress-label">진척률</div>
+                            <div class="item-progress-bar">
+                                <div class="item-progress-actual progress-100"></div>
+                            </div>
+                            <div class="progress-number">100%</div>
+                        </div>
+                        <div>2024-06-16</div>
+                    </div>
+                </div>
+                <!-- This is the hidden details section -->
+                <div class="item-details">
+                    <ol>
+
+                    </ol>
+                </div>
+            </div>
+            <div class="row-item" onclick="toggleDetails1(this)">
+                <div class="flex-row-tiem-child">
+                    <div class="item-number">31</div>
+                    <div class="fillter-flex-row-item-child">
+                        <div class="item-title">양말 제조업 활성화 사업</div>
+                        <div class="item-stats">
+                            <span>지역경제과</span>
+                            <span><i class="item-icon icon-eye"></i>1,159회</span>
+                            <span><i class="item-icon icon-thumb-up"></i>986개</span>
+                        </div>
+                        <div class="item-progress-container">
+                            <div class="item-progress-label">진척률</div>
+                            <div class="item-progress-bar">
+                                <div class="item-progress-actual progress-50"></div>
+                            </div>
+                            <div class="progress-number">50%</div>
+                        </div>
+                        <div>2024-05-24</div>
+                    </div>
+                </div>
+                <!-- This is the hidden details section -->
+                <div class="item-details">
+                    <div class="border-top-linear"></div>
+                    <div class="item-details-container">
+                        <ol>
+                            <a href="" class="hover-link  show-popup">
+                                <span class="number">①</span>
+                                <span class="link-text">하반기 지방재정 집행 평가 우수ㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇ하반기 지방재정 집행 평가
+                                    우수ㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇ</span>
+                            </a>
+                            <a href="" class="hover-link  show-popup">
+                                <span class="number">②</span>
+                                <span class="link-text">법조타운 공영주차장 추진</span>
+                            </a>
+                            <a href="" class="hover-link  show-popup">
+                                <span class="number">③</span>
+                                <span class="link-text">폭염 종합대책 추진</span>
+                            </a>
+                            <a href="" class="hover-link  show-popup">
+                                <span class="number">③</span>
+                                <span class="link-text">폭염 종합대책 추진</span>
+                            </a>
+                            <a href="" class="hover-link  show-popup">
+                                <span class="number">③</span>
+                                <span class="link-text">폭염 종합대책 추진</span>
+                            </a>
+
+                            <a href="" class="hover-link  show-popup">
+                                <span class="number">③</span>
+                                <span class="link-text">폭염 종합대책 추진</span>
+                            </a>
+                        </ol>
+                        <div class="close-arrow-container">
+                            <img src="/resource/image/policy/icon/arrow-up-close-icon.png"
+                                alt="arrow icon close items detail">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row-item" onclick="toggleDetails1(this)">
+                <div class="flex-row-tiem-child">
+                    <div class="item-number">30</div>
+                    <div class="fillter-flex-row-item-child">
+                        <div class="item-title">소상공인 지원 사업</div>
+                        <div class="item-stats">
+                            <span>지역경제과</span>
+                            <span><i class="item-icon icon-eye"></i>999회</span>
+                            <span><i class="item-icon icon-thumb-up"></i>867개</span>
+                        </div>
+                        <div class="item-progress-container">
+                            <div class="item-progress-label">진척률</div>
+                            <div class="item-progress-bar">
+                                <div class="item-progress-actual progress-30"></div>
+                            </div>
+                            <div class="progress-number">30%</div>
+                        </div>
+                        <div>2024-09-04</div>
+                    </div>
+                </div>
+                <!-- This is the hidden details section -->
+                <div class="item-details">
+                    <div class="border-top-linear"></div>
+                    <div class="item-details-container">
+                        <ol>
+                            <a href="" class="hover-link  show-popup">
+                                <span class="number">①</span>
+                                <span class="link-text">하반기 지방재정 집행 평가 우수ㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇ하반기 지방재정 집행 평가
+                                    우수ㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇ</span>
+                            </a>
+                            <a href="" class="hover-link  show-popup">
+                                <span class="number">②</span>
+                                <span class="link-text">법조타운 공영주차장 추진</span>
+                            </a>
+                            <a href="" class="hover-link  show-popup">
+                                <span class="number">③</span>
+                                <span class="link-text">폭염 종합대책 추진</span>
+                            </a>
+                            <a href="" class="hover-link  show-popup">
+                                <span class="number">③</span>
+                                <span class="link-text">폭염 종합대책 추진</span>
+                            </a>
+                            <a href="" class="hover-link  show-popup">
+                                <span class="number">③</span>
+                                <span class="link-text">폭염 종합대책 추진</span>
+                            </a>
+
+                            <a href="" class="hover-link  show-popup">
+                                <span class="number">③</span>
+                                <span class="link-text">폭염 종합대책 추진</span>
+                            </a>
+                        </ol>
+                        <div class="close-arrow-container">
+                            <img src="/resource/image/policy/icon/arrow-up-close-icon.png"
+                                alt="arrow icon close items detail">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row-item" onclick="toggleDetails1(this)">
+                <div class="flex-row-tiem-child">
+                    <div class="item-number">29</div>
+                    <div class="fillter-flex-row-item-child">
+                        <div class="item-title">전통시장 및 상점가 활성화 사업</div>
+                        <div class="item-stats">
+                            <span>지역경제과</span>
+                            <span><i class="item-icon icon-eye"></i>645회</span>
+                            <span><i class="item-icon icon-thumb-up"></i>356개</span>
+                        </div>
+                        <div class="item-progress-container">
+                            <div class="item-progress-label">진척률</div>
+                            <div class="item-progress-bar">
+                                <div class="item-progress-actual progress-10"></div>
+                            </div>
+                            <div class="progress-number">10%</div>
+                        </div>
+                        <div>2024-09-04</div>
+                    </div>
+                </div>
+                <!-- This is the hidden details section -->
+                <div class="item-details">
+                    <ol>
+
+                    </ol>
+                </div>
+            </div>
+            <!-- Repeat the above block for other row-items -->
+        </div>
+
+        <!-- End section reponsive table -->
+
+        <!-- Section pagination -->
+        <div class="pagination-section">
+            <ul class="pagination">
+                <li><img src="/resource/image/share-component/pagination/double-left-arrow.png" alt="double-left-arrow"
+                        class="arrow-button"></li>
+                <li><img src="/resource/image/share-component/pagination/left-arrow.png" alt="left-arrow"
+                        class="arrow-button"></li>
+                <li class="active">1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+                <li>6</li>
+                <li>7</li>
+                <li>8</li>
+                <li>9</li>
+                <li>10</li>
+                <li><img src="/resource/image/share-component/pagination/right-arrow.png" alt="right-arrow"
+                        class="arrow-button"></li>
+                <li><img src="/resource/image/share-component/pagination/double-right-arrow.png"
+                        alt="double-right-arrow" class="arrow-button"></li>
+            </ul>
+        </div>
+
+        <div class="pagination-section-mobile">
+            <ul class="pagination">
+                <li><img src="/resource/image/share-component/pagination/double-left-arrow.png" alt="double-left-arrow"
+                        class="arrow-button"></li>
+                <li><img src="/resource/image/share-component/pagination/left-arrow.png" alt="left-arrow"
+                        class="arrow-button"></li>
+                <li class="active">1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+                <li><img src="/resource/image/share-component/pagination/right-arrow.png" alt="right-arrow"
+                        class="arrow-button"></li>
+                <li><img src="/resource/image/share-component/pagination/double-right-arrow.png"
+                        alt="double-right-arrow" class="arrow-button"></li>
+            </ul>
+        </div>
+        <!-- End section pagination -->
+    </div>
+
+
+    <div class="popup" id="popup">
+        <div class="main-popup">
+            <div class="container">
+                <!-- Top Bar -->
+                <div class="top-bar">
+                    <div class="left-info">
+                        <span class="content-head"> <span class="color-number">2024-05-20</span></span>
+                        <span class="content-head separator">|</span>
+                        <span class="content-head">조회수 <span class="color-number">896</span></span>
+                        <span class="content-head separator">|</span>
+                        <span class="content-head">문의수 <span class="color-number">777</span></span>
+                    </div>
+
+                    <div class="project-select">
+                        <div class="dropdown-container-policy">
+                            <button class="dropdown-button" id="dropdownButton">
+                                Option 1
+                                <img src="/resource/image/policy/icon/down-icon-new.png" class="custom-icon"
+                                    alt="down arrow">
+                            </button>
+                            <div class="dropdown-content">
+                                <a class="dropdown-content-a" href="#" onclick="selectOption(this)">서울아레나 복합문화시설 건립서울아레나
+                                    복합문화시설 건립서울아레나 복합문화시설
+                                    건립 건립서울아레나 복합문화시설</a>
+                                <a class="dropdown-content-a" href="#" onclick="selectOption(this)">서울아레나 복합문화시설 건립</a>
+                                <a class="dropdown-content-a" href="#" onclick="selectOption(this)">Option 3</a>
+                            </div>
+                        </div>
+                        <button class="close-btn" id="closePopupBtn">
+                            <div class="closeIcon"> </div>
+                        </button>
+                    </div>
+                </div>
+                <div class="top-bar-mobile">
+                    <div class="dropdown-container-policy-moblie">
+                        <button class="dropdown-button">
+                            <div class="select-box-container"
+                                style="display: flex; align-items:center; justify-content: space-between; width:100%">
+                                <p class="dropdown-active-txt" id="dropdownButton1">
+                                    text
+                                </p>
+                                <div>
+                                    <img src="/resource/image/policy/icon/down-icon-new.png" class="custom-icon"
+                                        alt="down arrow">
+                                </div>
+                            </div>
+                        </button>
+                        <div class="dropdown-content">
+                            <a class="dropdown-content-a" href="#" onclick="selectOption1(this)">서울아레나 복합문화시설 건립서울아레나
+                                복합문화시설 건립서울아레나 복합문화시설
+                                건립 건립서울아레나 복합문화시설</a>
+                            <a class="dropdown-content-a" href="#" onclick="selectOption1(this)">서울아레나 복합문화시설 건립</a>
+                            <a class="dropdown-content-a" href="#" onclick="selectOption1(this)">Option 3</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="carousel-container-content">
+                    <div class="policy-title-container">
+                        <div class="arrow-left arrow-desktop">
+                            <img src="/resource/image/share-component/policy-popup/icons/ic-pre.png" alt="Left Arrow">
+                        </div>
+                        <div class="item-policy" data-dot="1">
+                            <div class="frame-content">
+
+                                <div class="title-banner">
+                                    <div class="arrow-left arrow-mobile">
+                                        <img src="/resource/image/share-component/policy-popup/icons/ic-pre.png"
+                                            alt="Left Arrow">
+                                    </div>
+                                    <div class="title-banner-h2-ctn">
+                                        <h2 class="title-banner-h2">서울아레나 복합문화시설 건립
+                                        </h2>
+                                        <div class="icon-heart-container">
+                                            <div class="icon-heart-popup"></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="arrow-right arrow-mobile">
+                                        <img src="/resource/image/share-component/policy-popup/icons/ic-next.png"
+                                            alt="Right Arrow">
+                                    </div>
+                                </div>
+                                <div class="title-banner-div-txt">
+                                    <p class="text-banner">① 하위 사업명이 표출됩니다.</p>
+                                </div>
+                                <div class="nav-container-pc">
+                                    <div class="nav-items-flex">
+                                        <div class="nav-item active" data-dot="1">
+                                            <div class="nav-item-inner">1</div>
+                                        </div>
+                                        <div class="nav-item" data-dot="2">
+                                            <div class="nav-item-inner">2</div>
+                                        </div>
+                                        <div class="nav-item" data-dot="3">
+                                            <div class="nav-item-inner">3</div>
+                                        </div>
+                                        <div class="nav-item" data-dot="4">
+                                            <div class="nav-item-inner">4</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="arrow-right arrow-desktop">
+                            <img src="/resource/image/share-component/policy-popup/icons/ic-next.png" alt="Right Arrow">
+                        </div>
+                    </div>
+                    <div class="fillter-nav-container-mb">
+                        <div class="nav-container-mb">
+                            <div class="nav-items-flex">
+                                <div class="nav-item active" data-dot="1">
+                                    <div class="nav-item-inner">1</div>
+                                </div>
+                                <div class="nav-item" data-dot="2">
+                                    <div class="nav-item-inner">2</div>
+                                </div>
+                                <div class="nav-item" data-dot="3">
+                                    <div class="nav-item-inner">3</div>
+                                </div>
+                                <div class="nav-item" data-dot="4">
+                                    <div class="nav-item-inner">4</div>
+                                </div>
+                                <div class="nav-item" data-dot="2">
+                                    <div class="nav-item-inner">5</div>
+                                </div>
+                                <div class="nav-item" data-dot="3">
+                                    <div class="nav-item-inner">6</div>
+                                </div>
+                                <div class="nav-item" data-dot="4">
+                                    <div class="nav-item-inner">7</div>
+                                </div>
+                                <div class="nav-item" data-dot="2">
+                                    <div class="nav-item-inner">8</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="divider-line"></div>
+
+                <div class="carousel-container">
+                    <div class="owl-carousel owl-theme">
+                        <div class="item-policy"><img
+                                src="/resource/image/share-component/policy-popup/images/popup-img.png" alt="Image 1">
+                        </div>
+                        <div class="item-policy"><img
+                                src="/resource/image/share-component/policy-popup/images/popup-img.png" alt="Image 2">
+                        </div>
+                        <div class="item-policy"><img
+                                src="/resource/image/share-component/policy-popup/images/popup-img.png" alt="Image 3">
+                        </div>
+                        <div class="item-policy"><img
+                                src="/resource/image/share-component/policy-popup/images/popup-img.png" alt="Image 4">
+                        </div>
+                    </div>
+
+
+                    <div class="carousel-custom">
+                        <div class="pause bg-image " id="pause"></div>
+                        <div class="am-next bg-image"></div>
+                        <div class="slide-position">1 <span class="count-slide">/ 4</span></div>
+                        <div class="am-prev bg-image"></div>
+                    </div>
+
+                    <div class="wraper-dot-mobile">
+                        <ul id='carousel-dots-mobile' class='owl-dots-mobile'>
+                            <li class='owl-dot active'></li>
+                            <li class='owl-dot'></li>
+                            <li class='owl-dot'></li>
+                            <li class='owl-dot'></li>
+                        </ul>
+                    </div>
+
+                </div>
+
+
+
+                <div class="info-item-progress-container">
+                    <!-- Icons and Text -->
+                    <div class="info-icons">
+                        <div class="info-item">
+                            <div class="info-icon red">
+                                <img src="/resource/image/share-component/policy-popup/images/building-icon.png"
+                                    alt="building-icon">
+                            </div>
+                            <div class="info-text">활력 넘치는 <strong>상생경제도시</strong></div>
+                        </div>
+
+                        <div class="info-item">
+                            <div class="info-icon yellow">
+                                <img src="/resource/image/share-component/policy-popup/images/heath.png"
+                                    alt="heath-icon">
+                            </div>
+                            <div class="info-text">안전하고 건강한 <strong>행복도시</strong></div>
+                        </div>
+
+                        <div class="info-item">
+                            <div class="info-icon yellow">
+                                <img src="/resource/image/share-component/policy-popup/images/bus-icon.png"
+                                    alt="bus-icon">
+                            </div>
+                            <div class="info-text">교통이 편리한 <strong>균형발전도시</strong></div>
+                        </div>
+
+                        <div class="info-item">
+                            <div class="info-icon yellow">
+                                <img src="/resource/image/share-component/policy-popup/images/like.png" alt="like-icon">
+                            </div>
+                            <div class="info-text">질 높은 <strong>교육문화도시</strong></div>
+                        </div>
+
+                        <div class="info-item">
+                            <div class="info-icon yellow">
+                                <img src="/resource/image/share-component/policy-popup/images/gold.png" alt="gold-icon">
+                            </div>
+                            <div class="info-text">투명하고 혁신적인 <strong>청렴행정도시</strong></div>
+                        </div>
+                    </div>
+
+                    <!-- Progress Bar -->
+                    <div class="item-progress-container">
+                        <span class="progress-label">진행률</span>
+                        <div class="progress-bar">
+                            <div class="progress-policy-popup progress-50"></div>
+                        </div>
+                        <span class="progress-percent">50%</span>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="scroll-container">
+                        <div class="fillter-scroll-info-bar">
+                            <div class="info-bar">
+                                <div class="info-item-popup">주관부서 &nbsp; <span class="strong">청년미래과</span></div>
+                                <div class="info-item-popup">청년미래 과장 &nbsp;<span class="strong">심청이</span></div>
+                                <div class="info-item-popup">청년전략산업팀장 &nbsp; <span class="strong">황길동</span></div>
+                                <div class="info-item-popup">담당주무관 &nbsp; <span class="strong">심봉사</span></div>
+                                <div class="info-item-popup">담당 전화번호 &nbsp; <span class="strong">02-0000-0000</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fillter-scroll-info-bar">
+                            <div class="info-bar">
+                                <div class="info-item-popup">주관부서 &nbsp; <span class="strong">도시활성화추진반</span></div>
+                                <div class="info-item-popup">도시활성화추진반 과장 &nbsp;<span class="strong">심청이</span></div>
+                                <div class="info-item-popup">청년전략산업팀장 &nbsp; <span class="strong">황길동</span></div>
+                                <div class="info-item-popup">담당주무관 &nbsp; <span class="strong">심봉사</span></div>
+                                <div class="info-item-popup">담당 전화번호 &nbsp; <span class="strong">02-0000-0000</span>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="table-tb-link">
+                        <a href="#">옆으로 밀어보세요 →</a>
+                    </div>
+                </div>
+
+                <div class="tab-container">
+                    <div class="tab-scroll">
+                        <div class="tab active">사업개요</div>
+                        <div class="tab">추진경과</div>
+                        <div class="tab">향후계획</div>
+                        <div class="tab">관련법령</div>
+                        <div class="tab">언론보도</div>
+                        <div class="tab">홍보</div>
+                    </div>
+
+                </div>
+
+
+
+                <div class="divider"></div>
+
+                <!-- Content Area -->
+                <div class="content-box">
+                    <div class="main-box">
+                        <h3>주요사업 추진현황</h3>
+                        <p class="text mt">행정의 투명성을 높이고 구민의 참여행정 여건을 조성하기 위하여, 구청 주요사업(공사시설, 현안사업, 국·시비사업, 공모사업)의 추진현황을
+                            공개하고 있습니다.</p>
+                        <p class="text">※ 개별 사업에 대한 자세한 사항은 주관부서로 문의하시기 바랍니다.</p>
+                        <p class="text">※ 효율적인 사업 공개 및 관리를 위하여 주기적으로 사업내용을 등록 및 현행화합니다.</p>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="/resource/lib/jquery/3.7.1/js/jquery.min.js"></script>
+    <script src="/resource/lib/owl.carousel/js/owl.carousel.min.js"></script>
+    <script src="/resource/js/policy/policy.js"></script>
+
+</body>
+
+</html>
